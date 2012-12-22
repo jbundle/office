@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
+	<LogicFile ID="2768">
+		<LastChanged>2009-02-12T14:49:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>10</Sequence>
+		<MethodName>openMainRecord</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactScreen</MethodClassName>
+		<LogicSource>return new Contact(this);</LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="2769">
+		<LastChanged>2009-02-12T14:49:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>10</Sequence>
+		<MethodName>openMainRecord</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactGridScreen</MethodClassName>
+		<LogicSource>return new Contact(this);</LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="2770">
+		<LastChanged>2009-02-12T14:49:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>100</Sequence>
+		<MethodName>setupSFields</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactGridScreen</MethodClassName>
+		<LogicSource/>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="2771">
+		<LastChanged>2012-01-31T10:30:05</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>30</Sequence>
+		<MethodName>addListeners</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactGridScreen</MethodClassName>
+		<LogicSource><![CDATA[super;
+Record recContact = this.getMainRecord();
+recContact.setKeyArea(Contact.NAME_SORT_KEY);
+SortOrderHandler keyBehavior = new SortOrderHandler(this);
+keyBehavior.setGridTable(Contact.NAME_SORT_KEY, recContact, 0);
+keyBehavior.setGridTable(Contact.CONTACT_KEY, recContact, 1);
+keyBehavior.setGridTable(null, recContact, 2);
+keyBehavior.setGridTable(Contact.POSTAL_CODE_SORT_KEY, recContact, 3);
+keyBehavior.setGridTable(null, recContact, 4);
+keyBehavior.setGridTable(null, recContact, 5);
+keyBehavior.setGridTable(null, recContact, 6);
+this.getScreenRecord().getField(ContactScreenRecord.PROFILE_KEY).addListener(keyBehavior);
+
+recContact.addListener(new ExtractRangeFilter(Contact.POSTAL_CODE_SORT, this.getScreenRecord().getField(ContactScreenRecord.POSTAL_CODE_SORT)));
+recContact.addListener(new ExtractRangeFilter(Contact.NAME_SORT, this.getScreenRecord().getField(ContactScreenRecord.NAME_SORT)));
+recContact.addListener(new CompareFileFilter(Contact.CONTACT_CATEGORY_ID, this.getScreenRecord().getField(ContactScreenRecord.CONTACT_CATEGORY_ID), "=", null, true));
+
+this.getScreenRecord().getField(ContactScreenRecord.NAME_SORT).addListener(new FieldReSelectHandler(this));
+this.getScreenRecord().getField(ContactScreenRecord.POSTAL_CODE_SORT).addListener(new FieldReSelectHandler(this));
+this.getScreenRecord().getField(ContactScreenRecord.CONTACT_CATEGORY_ID).addListener(new FieldReSelectHandler(this));]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="2772">
+		<LastChanged>2009-02-12T14:49:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>20</Sequence>
+		<MethodName>addScreenRecord</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactGridScreen</MethodClassName>
+		<LogicSource>return new ContactScreenRecord(this);</LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="2773">
+		<LastChanged>2009-02-12T14:49:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>100</Sequence>
+		<MethodName>setupSFields</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactScreen</MethodClassName>
+		<LogicSource/>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="4479">
+		<LastChanged>2012-01-31T06:23:11</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>1,000</Sequence>
+		<MethodName>addMasterListeners</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>Contact</MethodClassName>
+		<LogicSource><![CDATA[super;
+
+CopyFieldHandler copyName = (CopyFieldHandler)this.getField(Contact.NAME).getListener(CopyFieldHandler.class.getName());
+this.getField(Contact.NAME).removeListener(copyName, true);
+copyName = new CopyFieldHandler(Contact.NAME_SORT)
+{
+    public int moveIt(boolean bDisplayOption, int iMoveMode)
+    {
+        BaseField fldContact = getOwner().getRecord().getField(Contact.CONTACT);
+        BaseField fldName = getOwner();
+        if ((fldName.isNull()) && (!fldContact.isNull()))
+        {
+            return fldContact.handleFieldChanged(bDisplayOption, iMoveMode);
+        }
+        return super.moveIt(bDisplayOption, iMoveMode);
+    }
+};
+this.getField(Contact.NAME).addListener(copyName);
+
+CopyFieldHandler copyLast = new CopyLastHandler(Contact.NAME_SORT)
+{
+    public int moveIt(boolean bDisplayOption, int iMoveMode)
+    {
+        BaseField fldName = getOwner().getRecord().getField(Contact.NAME);
+        if (!fldName.isNull())
+            return DBConstants.NORMAL_RETURN;   // Don't wipe the name
+        return super.moveIt(bDisplayOption, iMoveMode);
+    }
+};
+this.getField(Contact.CONTACT).addListener(copyLast);]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5876">
+		<LastChanged>2012-01-31T06:23:11</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>10</Sequence>
+		<MethodName>addListeners</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactScreenRecord</MethodClassName>
+		<LogicSource><![CDATA[super;
+FieldToUpperHandler upper = new FieldToUpperHandler(null);
+this.getField(ContactScreenRecord.NAME_SORT).addListener(upper);
+CheckForTheHandler the = new CheckForTheHandler(null);
+this.getField(ContactScreenRecord.NAME_SORT).addListener(the);]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5877">
+		<LastChanged>2009-05-23T03:33:24</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>10</Sequence>
+		<MethodName>makeReferenceRecord</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactCategoryField</MethodClassName>
+		<LogicSource>return new ContactCategory(recordOwner);</LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5878">
+		<LastChanged>2009-02-12T14:49:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>100</Sequence>
+		<MethodName>setupDefaultView</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactCategoryField</MethodClassName>
+		<LogicSource>return this.setupTablePopup(itsLocation, targetScreen, iDisplayFieldDesc, this.makeReferenceRecord(), false);</LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5879">
+		<LastChanged>2009-02-12T14:49:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>100</Sequence>
+		<MethodName>setupDefaultView</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactCategoryFilter</MethodClassName>
+		<LogicSource>return this.setupTablePopup(itsLocation, targetScreen, iDisplayFieldDesc, this.makeReferenceRecord(), true);</LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5880">
+		<LastChanged>2012-01-31T06:23:11</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>200</Sequence>
+		<MethodName>addToolbarButtons</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>ContactGridScreen</MethodClassName>
+		<LogicSource><![CDATA[new SCannedBox(toolScreen.getNextLocation(ScreenConstants.NEXT_LOGICAL, ScreenConstants.SET_ANCHOR), toolScreen, null, ScreenConstants.DEFAULT_DISPLAY, null, MenuConstants.FORMDETAIL, MenuConstants.FORMDETAIL, MenuConstants.FORMDETAIL, null);
+toolScreen.getScreenRecord().getField(ContactScreenRecord.NAME_SORT).setupDefaultView(toolScreen.getNextLocation(ScreenConstants.RIGHT_WITH_DESC, ScreenConstants.SET_ANCHOR), toolScreen, ScreenConstants.DEFAULT_DISPLAY);
+toolScreen.getScreenRecord().getField(ContactScreenRecord.POSTAL_CODE_SORT).setupDefaultView(toolScreen.getNextLocation(ScreenConstants.NEXT_INPUT_LOCATION, ScreenConstants.SET_ANCHOR), toolScreen, ScreenConstants.DEFAULT_DISPLAY);
+toolScreen.getScreenRecord().getField(ContactScreenRecord.CONTACT_CATEGORY_ID).setupDefaultView(toolScreen.getNextLocation(ScreenConstants.RIGHT_WITH_DESC, ScreenConstants.SET_ANCHOR), toolScreen, ScreenConstants.DEFAULT_DISPLAY);]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>1</IncludeScope>
+	</LogicFile>
+</file>

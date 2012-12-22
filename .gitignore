@@ -1,6 +1,15 @@
-*.class
+target
+.settings
+.project
+.classpath
+.attach*
+raw_test_data*
+scratch_test_data*
+skeleton_test_data*
+*_backup_data*
+*~
+.metadata
+*.releaseBackup
+release.properties
+*.log
 
-# Package Files #
-*.jar
-*.war
-*.ear

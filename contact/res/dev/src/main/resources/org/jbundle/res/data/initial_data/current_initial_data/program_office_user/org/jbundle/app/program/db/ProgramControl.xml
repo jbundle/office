@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
+	<ProgramControl ID="1">
+		<LastChanged>2012-01-13T10:57:02</LastChanged>
+		<Deleted>N</Deleted>
+		<ProjectName>office</ProjectName>
+		<BaseDirectory>${user.home}</BaseDirectory>
+		<SourceDirectory>src/main/java/</SourceDirectory>
+		<ResourcesDirectory>src/main/resources/</ResourcesDirectory>
+		<ClassDirectory>target/classes/</ClassDirectory>
+		<ArchiveDirectory>workspace/workspace/jbundle/app/contact/contact/res/data/src/main/resources/</ArchiveDirectory>
+		<DevArchiveDirectory>workspace/workspace/jbundle/app/contact/contact/res/dev/src/main/resources/</DevArchiveDirectory>
+		<ResourceType>Properties</ResourceType>
+		<ClassResourceType>Properties</ClassResourceType>
+		<PackageName/>
+		<InterfacePackage>.model</InterfacePackage>
+		<ThinPackage>.thin</ThinPackage>
+		<ResourcePackage>.res</ResourcePackage>
+		<LastPackageUpdate>2010-02-28T06:25:35</LastPackageUpdate>
+		<PackagesBasePath/>
+		<PackagesPath/>
+	</ProgramControl>
+</file>

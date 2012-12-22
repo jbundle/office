@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
+	<FileHdr ID="192">
+		<LastChanged>2011-08-05T15:59:52</LastChanged>
+		<Deleted>N</Deleted>
+		<FileName>Contact</FileName>
+		<FileDesc>Contact List</FileDesc>
+		<FileMainFilename>Contact</FileMainFilename>
+		<Type>REMOTE | USER_DATA</Type>
+		<FileNotes/>
+		<DatabaseName>app</DatabaseName>
+		<FileRecCalled>Contact</FileRecCalled>
+	</FileHdr>
+	<FileHdr ID="300">
+		<LastChanged>2011-08-05T15:59:52</LastChanged>
+		<Deleted>N</Deleted>
+		<FileName>ContactCategory</FileName>
+		<FileDesc>Contact category</FileDesc>
+		<FileMainFilename/>
+		<Type>TABLE | SHARED_DATA | LOCALIZABLE</Type>
+		<FileNotes/>
+		<DatabaseName>app</DatabaseName>
+		<FileRecCalled/>
+	</FileHdr>
+</file>

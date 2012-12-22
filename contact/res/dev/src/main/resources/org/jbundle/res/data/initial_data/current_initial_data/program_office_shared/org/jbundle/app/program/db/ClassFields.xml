@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
+	<ClassFields ID="888">
+		<LastChanged>2009-02-12T14:49:27</LastChanged>
+		<Deleted>N</Deleted>
+		<ClassInfoClassName>ContactScreen</ClassInfoClassName>
+		<ClassInfoID/>
+		<ClassFieldClass>Contact</ClassFieldClass>
+		<ClassFieldSequence>0</ClassFieldSequence>
+		<ClassFieldName/>
+		<ClassFieldDesc/>
+		<ClassFieldProtect/>
+		<ClassFieldInitial/>
+		<ClassFieldInitialValue/>
+		<ClassFieldsType>I</ClassFieldsType>
+		<IncludeScope>1</IncludeScope>
+	</ClassFields>
+	<ClassFields ID="3481">
+		<LastChanged>2012-12-13T13:52:08</LastChanged>
+		<Deleted>N</Deleted>
+		<ClassInfoClassName>ContactScreenRecord</ClassInfoClassName>
+		<ClassInfoID/>
+		<ClassFieldClass>ContactCategoryFilter</ClassFieldClass>
+		<ClassFieldSequence>0</ClassFieldSequence>
+		<ClassFieldName/>
+		<ClassFieldDesc/>
+		<ClassFieldProtect/>
+		<ClassFieldInitial/>
+		<ClassFieldInitialValue/>
+		<ClassFieldsType>I</ClassFieldsType>
+		<IncludeScope>4</IncludeScope>
+	</ClassFields>
+	<ClassFields ID="3484">
+		<LastChanged>2012-12-13T17:26:01</LastChanged>
+		<Deleted>N</Deleted>
+		<ClassInfoClassName>Contact</ClassInfoClassName>
+		<ClassInfoID/>
+		<ClassFieldClass>ContactScreen</ClassFieldClass>
+		<ClassFieldSequence>10</ClassFieldSequence>
+		<ClassFieldName>CONTACT_SCREEN_CLASS</ClassFieldName>
+		<ClassFieldDesc/>
+		<ClassFieldProtect/>
+		<ClassFieldInitial/>
+		<ClassFieldInitialValue>MAINT_MODE</ClassFieldInitialValue>
+		<ClassFieldsType>S</ClassFieldsType>
+		<IncludeScope>4</IncludeScope>
+	</ClassFields>
+	<ClassFields ID="3485">
+		<LastChanged>2012-12-13T17:26:06</LastChanged>
+		<Deleted>N</Deleted>
+		<ClassInfoClassName>Contact</ClassInfoClassName>
+		<ClassInfoID/>
+		<ClassFieldClass>ContactGridScreen</ClassFieldClass>
+		<ClassFieldSequence>20</ClassFieldSequence>
+		<ClassFieldName>CONTACT_GRID_SCREEN_CLASS</ClassFieldName>
+		<ClassFieldDesc/>
+		<ClassFieldProtect/>
+		<ClassFieldInitial/>
+		<ClassFieldInitialValue>DISPLAY_MODE</ClassFieldInitialValue>
+		<ClassFieldsType>S</ClassFieldsType>
+		<IncludeScope>4</IncludeScope>
+	</ClassFields>
+</file>
