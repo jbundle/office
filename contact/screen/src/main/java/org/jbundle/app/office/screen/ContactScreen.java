@@ -3,7 +3,7 @@
  * Copyright © 2012 jbundle.org. All rights reserved.
  * GPL3 Open Source Software License.
  */
-package org.jbundle.app.contact.screen;
+package org.jbundle.app.office.screen;
 
 import java.awt.*;
 import java.util.*;
@@ -23,7 +23,7 @@ import org.jbundle.base.util.*;
 import org.jbundle.model.*;
 import org.jbundle.model.db.*;
 import org.jbundle.model.screen.*;
-import org.jbundle.app.contact.db.*;
+import org.jbundle.app.office.db.*;
 
 /**
  *  ContactScreen - .

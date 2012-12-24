@@ -3,7 +3,7 @@
  * Copyright © 2012 jbundle.org. All rights reserved.
  * GPL3 Open Source Software License.
  */
-package org.jbundle.model.app.contact.db;
+package org.jbundle.model.app.office.db;
 
 import org.jbundle.model.main.db.*;
 
@@ -44,11 +44,11 @@ public interface ContactModel extends CompanyModel
     public static final String POSTAL_CODE_SORT_KEY = "PostalCodeSort";
 
     public static final String CONTACT_KEY = "Contact";
-    public static final String CONTACT_SCREEN_CLASS = "org.jbundle.app.contact.screen.ContactScreen";
-    public static final String CONTACT_GRID_SCREEN_CLASS = "org.jbundle.app.contact.screen.ContactGridScreen";
+    public static final String CONTACT_SCREEN_CLASS = "org.jbundle.app.office.screen.ContactScreen";
+    public static final String CONTACT_GRID_SCREEN_CLASS = "org.jbundle.app.office.screen.ContactGridScreen";
 
     public static final String CONTACT_FILE = "Contact";
-    public static final String THIN_CLASS = "org.jbundle.thin.app.contact.db.Contact";
-    public static final String THICK_CLASS = "org.jbundle.app.contact.db.Contact";
+    public static final String THIN_CLASS = "org.jbundle.thin.app.office.db.Contact";
+    public static final String THICK_CLASS = "org.jbundle.app.office.db.Contact";
 
 }

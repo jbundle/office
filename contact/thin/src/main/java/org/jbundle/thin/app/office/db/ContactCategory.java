@@ -3,14 +3,14 @@
  * Copyright © 2012 jbundle.org. All rights reserved.
  * GPL3 Open Source Software License.
  */
-package org.jbundle.thin.app.contact.db;
+package org.jbundle.thin.app.office.db;
 
 import java.util.*;
 import org.jbundle.thin.base.util.*;
 
 import org.jbundle.thin.base.db.*;
 
-import org.jbundle.model.app.contact.db.*;
+import org.jbundle.model.app.office.db.*;
 
 public class ContactCategory extends FieldList
     implements ContactCategoryModel

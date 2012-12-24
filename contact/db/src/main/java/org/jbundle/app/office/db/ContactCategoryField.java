@@ -3,7 +3,7 @@
  * Copyright © 2012 jbundle.org. All rights reserved.
  * GPL3 Open Source Software License.
  */
-package org.jbundle.app.contact.db;
+package org.jbundle.app.office.db;
 
 import java.awt.*;
 import java.util.*;
