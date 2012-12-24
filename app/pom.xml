@@ -9,7 +9,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>jbundle-office-app</artifactId>
+  <artifactId>jbundle-app-office</artifactId>
   <packaging>pom</packaging>
   <name>jbundle-office-app</name>
 
