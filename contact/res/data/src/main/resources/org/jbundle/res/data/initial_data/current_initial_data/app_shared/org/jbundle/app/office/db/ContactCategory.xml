@@ -12,11 +12,11 @@
 	<ContactCategory ID="3">
 		<LastChanged/>
 		<Deleted>N</Deleted>
-		<Description>Dancer</Description>
+		<Description>Agent</Description>
 	</ContactCategory>
 	<ContactCategory ID="4">
 		<LastChanged/>
 		<Deleted>N</Deleted>
-		<Description>IBM</Description>
+		<Description>Business</Description>
 	</ContactCategory>
 </file>

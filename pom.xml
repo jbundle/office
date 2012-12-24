@@ -14,7 +14,7 @@
   <artifactId>jbundle-app-office-project</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
-  <name>jbundle-app-office-project - Office productivity project</name>
+  <name>jbundle-app-office-project - Office project</name>
   <packaging>pom</packaging>
 
   <properties>

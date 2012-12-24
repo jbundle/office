@@ -11,7 +11,7 @@
 
   <artifactId>jbundle-app-contact-res-reactor</artifactId>
 
-  <name>jbundle-app-contact-res-reactor - Contact resources</name>
+  <name>jbundle-app-contact-res-reactor - Resources</name>
   <packaging>pom</packaging>
 
   <modules>

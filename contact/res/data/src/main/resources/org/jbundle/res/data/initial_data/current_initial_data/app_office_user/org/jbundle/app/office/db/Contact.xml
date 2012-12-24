@@ -26,7 +26,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="2">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -55,7 +55,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="3">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -84,7 +84,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="4">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -113,7 +113,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="5">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -142,7 +142,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="6">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -171,7 +171,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="7">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -200,7 +200,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="8">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -229,7 +229,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="9">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -258,7 +258,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="10">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -287,7 +287,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="11">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -316,7 +316,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="12">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -345,7 +345,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="13">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -374,7 +374,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="14">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -403,7 +403,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="15">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -432,7 +432,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="18">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -461,7 +461,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="19">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -490,7 +490,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>3</ContactCategoryID>
 	</Contact>
 	<Contact ID="20">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -519,7 +519,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="21">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -548,7 +548,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="22">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -577,7 +577,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="25">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -606,7 +606,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="26">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -635,7 +635,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="27">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -664,7 +664,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>1</ContactCategoryID>
 	</Contact>
 	<Contact ID="28">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -693,7 +693,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>1</ContactCategoryID>
 	</Contact>
 	<Contact ID="29">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -722,7 +722,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="30">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -751,7 +751,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="31">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -780,7 +780,7 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 	<Contact ID="32">
 		<LastChanged>2012-09-21T18:06:00</LastChanged>
@@ -809,6 +809,6 @@
 		<Title/>
 		<HomeTel/>
 		<HomeEmail/>
-		<ContactCategoryID/>
+		<ContactCategoryID>2</ContactCategoryID>
 	</Contact>
 </file>
