@@ -22,29 +22,29 @@
 		<GroupId/>
 	</ClassProject>
 	<ClassProject ID="7">
-		<LastChanged>2011-03-10T07:31:43</LastChanged>
+		<LastChanged>2012-12-24T08:55:31</LastChanged>
 		<Deleted>N</Deleted>
-		<Name>contact</Name>
+		<Name>office</Name>
 		<ParentFolderID>16,777,309</ParentFolderID>
 		<Sequence/>
 		<Comment/>
 		<Code/>
-		<Description>Contact app</Description>
+		<Description>Sample office app</Description>
 		<SystemClasses/>
-		<PackageName/>
+		<PackageName>.app.office</PackageName>
 		<ProjectPath/>
-		<InterfacePackage/>
+		<InterfacePackage>.app.office</InterfacePackage>
 		<InterfaceProjectPath/>
-		<ThinPackage/>
+		<ThinPackage>.app.office</ThinPackage>
 		<ThinProjectPath/>
-		<ResourcePackage/>
+		<ResourcePackage>.app.office</ResourcePackage>
 		<ResProjectPath/>
 		<Properties/>
 		<ArtifactId/>
 		<GroupId/>
 	</ClassProject>
 	<ClassProject ID="9">
-		<LastChanged>2012-03-26T05:29:07</LastChanged>
+		<LastChanged>2012-12-24T08:55:11</LastChanged>
 		<Deleted>N</Deleted>
 		<Name>contact</Name>
 		<ParentFolderID>7</ParentFolderID>
@@ -53,13 +53,13 @@
 		<Code/>
 		<Description>Contact project</Description>
 		<SystemClasses/>
-		<PackageName>.app.contact</PackageName>
+		<PackageName/>
 		<ProjectPath/>
-		<InterfacePackage>.app.contact</InterfacePackage>
+		<InterfacePackage/>
 		<InterfaceProjectPath/>
-		<ThinPackage>.app.contact</ThinPackage>
+		<ThinPackage/>
 		<ThinProjectPath/>
-		<ResourcePackage>.app.contact</ResourcePackage>
+		<ResourcePackage/>
 		<ResProjectPath/>
 		<Properties/>
 		<ArtifactId/>
