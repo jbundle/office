@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
+	<Contact ID="1">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>5909223</Code>
+		<Name>Star Travel</Name>
+		<AddressLine1>5420 48th Ave</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Rancho Mirage</CityOrTown>
+		<StateOrRegion>CA</StateOrRegion>
+		<PostalCode>92270</PostalCode>
+		<Country>USA</Country>
+		<Tel>(303) 772-9332</Tel>
+		<Fax>(214) 239-3744</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>STAR T</NameSort>
+		<PostalCodeSort>92270</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="2">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>6549561</Code>
+		<Name>Elite Travel</Name>
+		<AddressLine1>Liberty Plaza</AddressLine1>
+		<AddressLine2>5201 Johnson Drive</AddressLine2>
+		<CityOrTown>Longmont</CityOrTown>
+		<StateOrRegion>CO</StateOrRegion>
+		<PostalCode>80503</PostalCode>
+		<Country>USA</Country>
+		<Tel>(201) 664-8232</Tel>
+		<Fax>(303) 651-8484</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>ELITE </NameSort>
+		<PostalCodeSort>80503</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="3">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>10607203</Code>
+		<Name>Florida Travel Center, Inc.</Name>
+		<AddressLine1>Suite 503</AddressLine1>
+		<AddressLine2>7310 Ritchie Highway</AddressLine2>
+		<CityOrTown>Orlando</CityOrTown>
+		<StateOrRegion>FL</StateOrRegion>
+		<PostalCode>32801</PostalCode>
+		<Country>USA</Country>
+		<Tel>(214) 239-5437</Tel>
+		<Fax>(407) 648-5721</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>FLORID</NameSort>
+		<PostalCodeSort>32801</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="4">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>10909754</Code>
+		<Name>Cooks Travel Inc</Name>
+		<AddressLine1>212 Humphrey Street</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Jupiter</CityOrTown>
+		<StateOrRegion>FL</StateOrRegion>
+		<PostalCode>33477</PostalCode>
+		<Country>USA</Country>
+		<Tel>809-724-7342</Tel>
+		<Fax>(407) 575-0887X3384</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>COOKS </NameSort>
+		<PostalCodeSort>33477</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="5">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>05903995</Code>
+		<Name>Hallmark Travel</Name>
+		<AddressLine1>First Floor</AddressLine1>
+		<AddressLine2>3801 Greeway Plaza</AddressLine2>
+		<CityOrTown>Atlanta</CityOrTown>
+		<StateOrRegion>GA</StateOrRegion>
+		<PostalCode>30303</PostalCode>
+		<Country>USA</Country>
+		<Tel>(407) 747-7029</Tel>
+		<Fax>(404) 688-5733</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>HALLMA</NameSort>
+		<PostalCodeSort>30303</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="6">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>14548365</Code>
+		<Name>Best Travel, Inc.</Name>
+		<AddressLine1>4848 W. Camellia Ave</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Gurnee</CityOrTown>
+		<StateOrRegion>IL</StateOrRegion>
+		<PostalCode>60031</PostalCode>
+		<Country>USA</Country>
+		<Tel>(404) 522-0723</Tel>
+		<Fax>(847) 855-0773</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>BEST T</NameSort>
+		<PostalCodeSort>60031</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="7">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>19537965</Code>
+		<Name>Aladdin Travel Service</Name>
+		<AddressLine1>500 Main Street</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Metairie</CityOrTown>
+		<StateOrRegion>LA</StateOrRegion>
+		<PostalCode>70002</PostalCode>
+		<Country>USA</Country>
+		<Tel>(809) 725-0232</Tel>
+		<Fax>(504) 831-7723</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>ALADDI</NameSort>
+		<PostalCodeSort>70002</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="8">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>31790780</Code>
+		<Name>Onward Travel</Name>
+		<AddressLine1>1134 King Street</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>River Vale</CityOrTown>
+		<StateOrRegion>NJ</StateOrRegion>
+		<PostalCode>07675</PostalCode>
+		<Country>USA</Country>
+		<Tel>(407) 648-8843</Tel>
+		<Fax>(201) 664-1723</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>ONWARD</NameSort>
+		<PostalCodeSort>07675</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="9">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>40514342</Code>
+		<Name>Agencies Soler Travel Network</Name>
+		<AddressLine1>2822 Avenida de las Arboles</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Hulatulco</CityOrTown>
+		<StateOrRegion/>
+		<PostalCode/>
+		<Country>Mexico</Country>
+		<Tel>011-52-617-60000</Tel>
+		<Fax>(809) 832-1824</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1979-06-15</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>AGENCI</NameSort>
+		<PostalCodeSort/>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="10">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>40514375</Code>
+		<Name>Travel Network</Name>
+		<AddressLine1>PO Box 3343</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>San Juan</CityOrTown>
+		<StateOrRegion>PR</StateOrRegion>
+		<PostalCode>00908</PostalCode>
+		<Country>USA</Country>
+		<Tel>(809) 834-3349</Tel>
+		<Fax>(809) 725-0772</Fax>
+		<Email/>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2004-09-09</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>TRAVEL</NameSort>
+		<PostalCodeSort>00908</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="11">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>40698560</Code>
+		<Name>Horizon Travel</Name>
+		<AddressLine1>2152 Chinook Centre</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Calgary</CityOrTown>
+		<StateOrRegion>AB</StateOrRegion>
+		<PostalCode>T2H 022</PostalCode>
+		<Country>Canada</Country>
+		<Tel>(504) 831-7328</Tel>
+		<Fax>809-725-2727</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>HORIZO</NameSort>
+		<PostalCodeSort>T2H 0</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="12">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>45768063</Code>
+		<Name>Vacations To Go</Name>
+		<AddressLine1>Unit 25</AddressLine1>
+		<AddressLine2>993 Fir Street</AddressLine2>
+		<CityOrTown>Houston</CityOrTown>
+		<StateOrRegion>TX</StateOrRegion>
+		<PostalCode>77057</PostalCode>
+		<Country>USA</Country>
+		<Tel>(713) 974-3834</Tel>
+		<Fax>(713) 974-0858</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>VACATI</NameSort>
+		<PostalCodeSort>77057</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="13">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>67658430</Code>
+		<Name>Seven Seas Travel Agency</Name>
+		<AddressLine1>2640 E. Beyer Blvd</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Sudbury</CityOrTown>
+		<StateOrRegion>ON</StateOrRegion>
+		<PostalCode>P3E 503</PostalCode>
+		<Country>Canada</Country>
+		<Tel>(847) 855-3828</Tel>
+		<Fax>705-675-1434</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>SEVEN </NameSort>
+		<PostalCodeSort>P3E 5</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="14">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>86537500</Code>
+		<Name>Servicios Intervoyage</Name>
+		<AddressLine1>772 Camino Real</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Barcelona</CityOrTown>
+		<StateOrRegion/>
+		<PostalCode/>
+		<Country>Spain</Country>
+		<Tel>011-22-202-22</Tel>
+		<Fax>011-52-617-72327</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1990-06-16</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>SERVIC</NameSort>
+		<PostalCodeSort/>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="15">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>05904006</Code>
+		<Name>Superior Travels</Name>
+		<AddressLine1>3323 N. Woodruff Ave</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Lakewood</CityOrTown>
+		<StateOrRegion>CA</StateOrRegion>
+		<PostalCode>91733</PostalCode>
+		<Country>USA</Country>
+		<Tel>(562)992-2311</Tel>
+		<Fax>(562)992-2312</Fax>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>1972-06-28</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>SUPERI</NameSort>
+		<PostalCodeSort>91733</PostalCodeSort>
+		<Contact>George Sai</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="18">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>05904020</Code>
+		<Name>Windy City Travel</Name>
+		<AddressLine1>8427 Lake Blvd</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Chicago</CityOrTown>
+		<StateOrRegion>IL</StateOrRegion>
+		<PostalCode>30442-8328</PostalCode>
+		<Country>USA</Country>
+		<Tel/>
+		<Fax/>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>2002-02-27</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>WINDY </NameSort>
+		<PostalCodeSort>30442</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="19">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code>03753883</Code>
+		<Name>The Travel Connection</Name>
+		<AddressLine1>391 E. First Street</AddressLine1>
+		<AddressLine2>Suite 100</AddressLine2>
+		<CityOrTown>New York</CityOrTown>
+		<StateOrRegion>NY</StateOrRegion>
+		<PostalCode>10010</PostalCode>
+		<Country>USA</Country>
+		<Tel/>
+		<Fax/>
+		<Email>travelagent@tourgeek.com</Email>
+		<Web/>
+		<DateEntered>2002-02-27</DateEntered>
+		<DateChanged>2006-08-25</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>TRAVEL</NameSort>
+		<PostalCodeSort>10010</PostalCodeSort>
+		<Contact/>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="20">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1>114 Winchester Lane</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Monrovia</CityOrTown>
+		<StateOrRegion>CA</StateOrRegion>
+		<PostalCode>91016</PostalCode>
+		<Country>USA</Country>
+		<Tel>626-358-2903</Tel>
+		<Fax/>
+		<Email>don@donandann.com</Email>
+		<Web/>
+		<DateEntered>2007-03-07</DateEntered>
+		<DateChanged>2007-03-08</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>TURN</NameSort>
+		<PostalCodeSort>91016</PostalCodeSort>
+		<Contact>James Turn</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="21">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1/>
+		<AddressLine2/>
+		<CityOrTown/>
+		<StateOrRegion/>
+		<PostalCode>91016</PostalCode>
+		<Country/>
+		<Tel/>
+		<Fax/>
+		<Email/>
+		<Web/>
+		<DateEntered>2007-03-07</DateEntered>
+		<DateChanged>2007-03-08</DateChanged>
+		<ChangedID>1</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>TURN</NameSort>
+		<PostalCodeSort>91016</PostalCodeSort>
+		<Contact>Linda Turn</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="22">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1>1941 Jones Ave</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Los Angeles</CityOrTown>
+		<StateOrRegion>CA</StateOrRegion>
+		<PostalCode>90032-2031</PostalCode>
+		<Country>USA</Country>
+		<Tel>323-223-4951</Tel>
+		<Fax/>
+		<Email>nancyr22934@hotmail.com</Email>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>RIEKER</NameSort>
+		<PostalCodeSort>90032</PostalCodeSort>
+		<Contact>Nancy Rieker</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="25">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1/>
+		<AddressLine2/>
+		<CityOrTown/>
+		<StateOrRegion/>
+		<PostalCode/>
+		<Country/>
+		<Tel/>
+		<Fax/>
+		<Email/>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>RIEKER</NameSort>
+		<PostalCodeSort/>
+		<Contact>Samuel Rieker</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="26">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1/>
+		<AddressLine2/>
+		<CityOrTown/>
+		<StateOrRegion/>
+		<PostalCode/>
+		<Country/>
+		<Tel/>
+		<Fax/>
+		<Email/>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>RIEKER</NameSort>
+		<PostalCodeSort/>
+		<Contact>Lara Rieker</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="27">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1>8838 Flower Street</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Chicago</CityOrTown>
+		<StateOrRegion>IL</StateOrRegion>
+		<PostalCode>32401</PostalCode>
+		<Country>USA</Country>
+		<Tel/>
+		<Fax/>
+		<Email>bill3992@aol.com</Email>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>SHIFT</NameSort>
+		<PostalCodeSort>32401</PostalCodeSort>
+		<Contact>William Shift</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="28">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1>8838 Flower Street</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Chicago</CityOrTown>
+		<StateOrRegion>IL</StateOrRegion>
+		<PostalCode>32401</PostalCode>
+		<Country>USA</Country>
+		<Tel/>
+		<Fax/>
+		<Email>j.win@us.ibm.com</Email>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>WINSTO</NameSort>
+		<PostalCodeSort>32401</PostalCodeSort>
+		<Contact>Janet Winston</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="29">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1>Kilianstrasse 9</AddressLine1>
+		<AddressLine2/>
+		<CityOrTown>Bad Kreuznach</CityOrTown>
+		<StateOrRegion/>
+		<PostalCode>55515</PostalCode>
+		<Country>Germany</Country>
+		<Tel/>
+		<Fax/>
+		<Email>kyle.eisenwiert39@aol.de</Email>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>EISENW</NameSort>
+		<PostalCodeSort>55515</PostalCodeSort>
+		<Contact>Kyle Eisenwiert</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="30">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1/>
+		<AddressLine2/>
+		<CityOrTown/>
+		<StateOrRegion/>
+		<PostalCode/>
+		<Country>Germany</Country>
+		<Tel/>
+		<Fax/>
+		<Email/>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>EISENW</NameSort>
+		<PostalCodeSort/>
+		<Contact>Miake Eisenwiert</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="31">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1/>
+		<AddressLine2/>
+		<CityOrTown/>
+		<StateOrRegion/>
+		<PostalCode/>
+		<Country>Germany</Country>
+		<Tel/>
+		<Fax/>
+		<Email/>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>EISENW</NameSort>
+		<PostalCodeSort/>
+		<Contact>Sandra Eisenwiert</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+	<Contact ID="32">
+		<LastChanged>2012-09-21T18:06:00</LastChanged>
+		<Deleted>N</Deleted>
+		<Code/>
+		<Name/>
+		<AddressLine1/>
+		<AddressLine2/>
+		<CityOrTown/>
+		<StateOrRegion/>
+		<PostalCode/>
+		<Country>Germany</Country>
+		<Tel/>
+		<Fax/>
+		<Email/>
+		<Web/>
+		<DateEntered>2011-07-14</DateEntered>
+		<DateChanged>2011-07-14</DateChanged>
+		<ChangedID>11</ChangedID>
+		<Comments/>
+		<UserID/>
+		<Password/>
+		<NameSort>EISENW</NameSort>
+		<PostalCodeSort/>
+		<Contact>Marco Eisenwiert</Contact>
+		<Title/>
+		<HomeTel/>
+		<HomeEmail/>
+		<ContactCategoryID/>
+	</Contact>
+</file>
