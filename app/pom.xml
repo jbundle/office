@@ -11,7 +11,7 @@
 
   <artifactId>jbundle-app-office</artifactId>
   <packaging>pom</packaging>
-  <name>jbundle-office-app</name>
+  <name>jbundle-app-office</name>
 
   <dependencies>
   
