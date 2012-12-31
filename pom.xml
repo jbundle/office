@@ -29,6 +29,7 @@
 
   <modules>
     <module>contact</module>
+    <module>calendar</module>
     <module>app</module>
   </modules>
 
