@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
 	<CalendarEntry ID="1">
-		<LastChanged>2012-12-30T11:49:55</LastChanged>
+		<LastChanged>2012-12-30T12:06:17</LastChanged>
 		<Deleted>N</Deleted>
 		<CalendarEntryTypeID>1</CalendarEntryTypeID>
-		<StartDateTime>2013-01-02T12:00:00</StartDateTime>
+		<StartDateTime>2013-01-11T05:09:20</StartDateTime>
 		<EndDateTime/>
 		<Description>Test</Description>
 		<CalendarCategoryID/>
+		<Hidden>N</Hidden>
+		<Properties/>
+		<AnnivMasterID/>
+	</CalendarEntry>
+	<CalendarEntry ID="2">
+		<LastChanged>2013-01-02T08:59:07</LastChanged>
+		<Deleted>N</Deleted>
+		<CalendarEntryTypeID>1</CalendarEntryTypeID>
+		<StartDateTime>2013-01-23T12:00:00</StartDateTime>
+		<EndDateTime/>
+		<Description>test</Description>
+		<CalendarCategoryID>1</CalendarCategoryID>
 		<Hidden>N</Hidden>
 		<Properties/>
 		<AnnivMasterID/>

@@ -25,8 +25,6 @@ import org.jbundle.model.db.*;
 import org.jbundle.model.screen.*;
 import org.jbundle.main.calendar.screen.*;
 import org.jbundle.util.calendarpanel.*;
-import org.jbundle.thin.base.screen.*;
-import org.jbundle.thin.base.screen.cal.popup.*;
 
 /**
  *  OfficeCalendarScreen - .
@@ -69,9 +67,7 @@ public class OfficeCalendarScreen extends CalendarEntryCalendarScreen
         super.setupSFields();
         if (this.getScreenFieldView().getControl() instanceof CalendarPanel)
         {   // Always
-            CalendarPanel calpanel = (CalendarPanel)this.getScreenFieldView().getControl();
-            BaseApplet applet = (BaseApplet)this.getAppletScreen().getScreenFieldView().getControl();
-//+            calpanel.setPopupComponent(new JPopupPanel(applet, (VScreenField)this.getScreenFieldView()));
+            new SCalendarPopupPanel(this.getNextLocation(ScreenConstants.NEXT_LOGICAL, ScreenConstants.SET_ANCHOR), this, null, ScreenConstants.DEFAULT_DISPLAY, null);
         }
     }
 

@@ -16,6 +16,7 @@
 
   <modules>
     <module>screen</module>
+    <module>swing</module>
   </modules>
 
 </project>

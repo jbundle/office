@@ -1,9 +1,9 @@
 /**
- * @(#)ContactCategoryField.
+ * @(#)ContactCategoryFilter.
  * Copyright © 2012 jbundle.org. All rights reserved.
  * GPL3 Open Source Software License.
  */
-package org.jbundle.app.office.db;
+package org.jbundle.app.office.contact.db;
 
 import java.awt.*;
 import java.util.*;
@@ -23,14 +23,14 @@ import org.jbundle.model.db.*;
 import org.jbundle.model.screen.*;
 
 /**
- *  ContactCategoryField - .
+ *  ContactCategoryFilter - .
  */
-public class ContactCategoryField extends ReferenceField
+public class ContactCategoryFilter extends ContactCategoryField
 {
     /**
      * Default constructor.
      */
-    public ContactCategoryField()
+    public ContactCategoryFilter()
     {
         super();
     }
@@ -42,7 +42,7 @@ public class ContactCategoryField extends ReferenceField
      * @param strDesc The string description (usually pass null, to use the resource file desc).
      * @param strDefault The default value (if object, this value is the default value, if string, the string is the default).
      */
-    public ContactCategoryField(Record record, String strName, int iDataLength, String strDesc, Object strDefault)
+    public ContactCategoryFilter(Record record, String strName, int iDataLength, String strDesc, Object strDefault)
     {
         this();
         this.init(record, strName, iDataLength, strDesc, strDefault);
@@ -55,13 +55,6 @@ public class ContactCategoryField extends ReferenceField
         super.init(record, strName, iDataLength, strDesc, strDefault);
     }
     /**
-     * Get (or make) the current record for this reference.
-     */
-    public Record makeReferenceRecord(RecordOwner recordOwner)
-    {
-        return new ContactCategory(recordOwner);
-    }
-    /**
      * Set up the default screen control for this field.
      * @param itsLocation Location of this component on screen (ie., GridBagConstraint).
      * @param targetScreen Where to place this component (ie., Parent screen or GridBagLayout).
@@ -72,7 +65,7 @@ public class ContactCategoryField extends ReferenceField
      */
     public ScreenComponent setupDefaultView(ScreenLoc itsLocation, ComponentParent targetScreen, Convert converter, int iDisplayFieldDesc, Map<String, Object> properties)
     {
-        return this.setupTablePopup(itsLocation, targetScreen, iDisplayFieldDesc, this.makeReferenceRecord(), false);
+        return this.setupTablePopup(itsLocation, targetScreen, iDisplayFieldDesc, this.makeReferenceRecord(), true);
     }
 
 }

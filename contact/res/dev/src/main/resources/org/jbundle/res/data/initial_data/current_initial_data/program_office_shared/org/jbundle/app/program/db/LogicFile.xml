@@ -234,4 +234,91 @@ toolScreen.getScreenRecord().getField(ContactScreenRecord.CONTACT_CATEGORY_ID).s
 		<CopyFrom/>
 		<IncludeScope>1</IncludeScope>
 	</LogicFile>
+	<LogicFile ID="5881">
+		<LastChanged>2013-01-02T10:03:51</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>100</Sequence>
+		<MethodName>setupSFields</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>OfficeCalendarScreen</MethodClassName>
+		<LogicSource><![CDATA[super;
+if (this.getScreenFieldView().getControl() instanceof CalendarPanel)
+{   // Always
+    new SCalendarPopupPanel(this.getNextLocation(ScreenConstants.NEXT_LOGICAL, ScreenConstants.SET_ANCHOR), this, null, ScreenConstants.DEFAULT_DISPLAY, null);
+}]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>4</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5882">
+		<LastChanged>2013-01-02T10:25:27</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>10</Sequence>
+		<MethodName>init</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface>ScreenComponent model, boolean bEditableControl</MethodInterface>
+		<MethodClassName>VCalendarPopupPanel</MethodClassName>
+		<LogicSource><![CDATA[super;
+BaseScreen parent = (BaseScreen)model.getParentScreen();
+CalendarPanel calpanel = (CalendarPanel)parent.getControl();
+BaseApplet applet = (BaseApplet)parent.getAppletScreen().getScreenFieldView().getControl();
+calpanel.setPopupComponent(new JCalendarPopupPanel(applet, (VScreenField)parent.getScreenFieldView()));]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>4</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5883">
+		<LastChanged>2013-01-02T10:10:06</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>100</Sequence>
+		<MethodName>setupControl</MethodName>
+		<LogicDescription/>
+		<MethodReturns>Component</MethodReturns>
+		<MethodInterface>boolean bEditableControl</MethodInterface>
+		<MethodClassName>VCalendarPopupPanel</MethodClassName>
+		<LogicSource><![CDATA[Component control = null;
+return control;]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>4</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5884">
+		<LastChanged>2013-01-02T10:08:07</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>10</Sequence>
+		<MethodName>JCalendarPopupPanel</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface>BaseApplet applet, ActionListener actionListener</MethodInterface>
+		<MethodClassName>JCalendarPopupPanel</MethodClassName>
+		<LogicSource/>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>4</IncludeScope>
+	</LogicFile>
+	<LogicFile ID="5885">
+		<LastChanged>2013-01-02T10:12:46</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>100</Sequence>
+		<MethodName>addComponents</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface>BaseApplet applet</MethodInterface>
+		<MethodClassName>JCalendarPopupPanel</MethodClassName>
+		<LogicSource><![CDATA[super;
+
+this.add(this.createComponentButton(CalendarEntryTypeField.APPOINTMENT, applet));
+this.add(this.createComponentButton(CalendarEntryTypeField.ANNIVERSARY, applet));]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>4</IncludeScope>
+	</LogicFile>
 </file>

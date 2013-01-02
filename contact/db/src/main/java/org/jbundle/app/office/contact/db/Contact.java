@@ -3,7 +3,7 @@
  * Copyright © 2012 jbundle.org. All rights reserved.
  * GPL3 Open Source Software License.
  */
-package org.jbundle.app.office.db;
+package org.jbundle.app.office.contact.db;
 
 import java.awt.*;
 import java.util.*;
@@ -22,7 +22,7 @@ import org.jbundle.model.*;
 import org.jbundle.model.db.*;
 import org.jbundle.model.screen.*;
 import org.jbundle.main.db.*;
-import org.jbundle.model.app.office.db.*;
+import org.jbundle.model.app.office.contact.db.*;
 
 /**
  *  Contact - .

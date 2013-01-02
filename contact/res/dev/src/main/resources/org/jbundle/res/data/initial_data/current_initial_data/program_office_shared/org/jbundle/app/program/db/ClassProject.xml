@@ -22,7 +22,7 @@
 		<GroupId/>
 	</ClassProject>
 	<ClassProject ID="7">
-		<LastChanged>2012-12-24T08:55:31</LastChanged>
+		<LastChanged>2013-01-02T09:40:39</LastChanged>
 		<Deleted>N</Deleted>
 		<Name>office</Name>
 		<ParentFolderID>16,777,309</ParentFolderID>
@@ -31,20 +31,20 @@
 		<Code/>
 		<Description>Sample office app</Description>
 		<SystemClasses/>
-		<PackageName>.app.office</PackageName>
+		<PackageName>.office</PackageName>
 		<ProjectPath/>
-		<InterfacePackage>.app.office</InterfacePackage>
+		<InterfacePackage>.office</InterfacePackage>
 		<InterfaceProjectPath/>
-		<ThinPackage>.app.office</ThinPackage>
+		<ThinPackage>.office</ThinPackage>
 		<ThinProjectPath/>
-		<ResourcePackage>.app.office</ResourcePackage>
+		<ResourcePackage>.office</ResourcePackage>
 		<ResProjectPath/>
 		<Properties/>
 		<ArtifactId/>
 		<GroupId/>
 	</ClassProject>
 	<ClassProject ID="9">
-		<LastChanged>2012-12-24T08:55:11</LastChanged>
+		<LastChanged>2013-01-02T09:41:53</LastChanged>
 		<Deleted>N</Deleted>
 		<Name>contact</Name>
 		<ParentFolderID>7</ParentFolderID>
@@ -53,13 +53,13 @@
 		<Code/>
 		<Description>Contact project</Description>
 		<SystemClasses/>
-		<PackageName/>
+		<PackageName>.contact</PackageName>
 		<ProjectPath/>
-		<InterfacePackage/>
+		<InterfacePackage>.contact</InterfacePackage>
 		<InterfaceProjectPath/>
-		<ThinPackage/>
+		<ThinPackage>.contact</ThinPackage>
 		<ThinProjectPath/>
-		<ResourcePackage/>
+		<ResourcePackage>.contact</ResourcePackage>
 		<ResProjectPath/>
 		<Properties/>
 		<ArtifactId/>
@@ -83,6 +83,72 @@
 		<ThinProjectPath/>
 		<ResourcePackage>.screen</ResourcePackage>
 		<ResProjectPath>res/res</ResProjectPath>
+		<Properties/>
+		<ArtifactId/>
+		<GroupId/>
+	</ClassProject>
+	<ClassProject ID="11">
+		<LastChanged>2012-12-31T11:40:24</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>calendar</Name>
+		<ParentFolderID>7</ParentFolderID>
+		<Sequence/>
+		<Comment/>
+		<Code/>
+		<Description>Calendar project</Description>
+		<SystemClasses/>
+		<PackageName>.calendar</PackageName>
+		<ProjectPath/>
+		<InterfacePackage>.calendar.model</InterfacePackage>
+		<InterfaceProjectPath/>
+		<ThinPackage>.calendar.thin</ThinPackage>
+		<ThinProjectPath/>
+		<ResourcePackage>.calendar.res</ResourcePackage>
+		<ResProjectPath/>
+		<Properties/>
+		<ArtifactId/>
+		<GroupId/>
+	</ClassProject>
+	<ClassProject ID="12">
+		<LastChanged>2013-01-02T09:56:52</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>screen</Name>
+		<ParentFolderID>11</ParentFolderID>
+		<Sequence/>
+		<Comment/>
+		<Code/>
+		<Description>Calendar screen</Description>
+		<SystemClasses/>
+		<PackageName>.screen</PackageName>
+		<ProjectPath/>
+		<InterfacePackage>.screen</InterfacePackage>
+		<InterfaceProjectPath/>
+		<ThinPackage>.screen</ThinPackage>
+		<ThinProjectPath/>
+		<ResourcePackage>.screen</ResourcePackage>
+		<ResProjectPath/>
+		<Properties/>
+		<ArtifactId/>
+		<GroupId/>
+	</ClassProject>
+	<ClassProject ID="13">
+		<LastChanged>2013-01-02T09:57:36</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>swing</Name>
+		<ParentFolderID>11</ParentFolderID>
+		<Sequence/>
+		<Comment/>
+		<Code/>
+		<Description>Swing screen implementation</Description>
+		<SystemClasses/>
+		<PackageName>.screen.view.swing</PackageName>
+		<ProjectPath/>
+		<InterfacePackage>.screen.view.swing</InterfacePackage>
+		<InterfaceProjectPath/>
+		<ThinPackage>.screen.view.swing</ThinPackage>
+		<ThinProjectPath/>
+		<ResourcePackage>.screen.view.swing</ResourcePackage>
+		<ResProjectPath/>
 		<Properties/>
 		<ArtifactId/>
 		<GroupId/>

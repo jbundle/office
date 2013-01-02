@@ -3,7 +3,7 @@
  * Copyright © 2012 jbundle.org. All rights reserved.
  * GPL3 Open Source Software License.
  */
-package org.jbundle.model.app.office.db;
+package org.jbundle.model.app.office.contact.db;
 
 import org.jbundle.model.db.*;
 
@@ -18,7 +18,7 @@ public interface ContactCategoryModel extends Rec
     public static final String DESCRIPTION_KEY = "Description";
 
     public static final String CONTACT_CATEGORY_FILE = "ContactCategory";
-    public static final String THIN_CLASS = "org.jbundle.thin.app.office.db.ContactCategory";
-    public static final String THICK_CLASS = "org.jbundle.app.office.db.ContactCategory";
+    public static final String THIN_CLASS = "org.jbundle.thin.app.office.contact.db.ContactCategory";
+    public static final String THICK_CLASS = "org.jbundle.app.office.contact.db.ContactCategory";
 
 }
