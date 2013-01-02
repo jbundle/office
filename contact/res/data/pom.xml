@@ -5,12 +5,12 @@
  
   <parent>
     <groupId>org.jbundle.app.office</groupId>
-    <artifactId>jbundle-app-contact-res-reactor</artifactId>
+    <artifactId>jbundle-app-office-contact-res-reactor</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.jbundle.app.contact.res.data</artifactId>
-  <name>jbundle-app-contact-res-data</name>
+  <artifactId>org.jbundle.app.office.contact.res.data</artifactId>
+  <name>jbundle-app-office-contact-res-data</name>
   
   <packaging>bundle</packaging>
 

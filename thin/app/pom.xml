@@ -5,21 +5,18 @@
 
   <parent>
     <groupId>org.jbundle.app.office</groupId>
-    <artifactId>jbundle-app-office-project</artifactId>
+    <artifactId>jbundle-office-thin-reactor</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>jbundle-app-office-contact-reactor</artifactId>
+  <artifactId>jbundle-office-thin-app-reactor</artifactId>
 
-  <name>jbundle-app-office-contact-reactor - Contact parent</name>
+  <name>jbundle-office-thin-app-reactor</name>
   <packaging>pom</packaging>
 
   <modules>
-    <module>res</module>
-    <module>model</module>
-    <module>thin</module>
-    <module>db</module>
-    <module>screen</module>
+    <module>contact</module>
+    <module>calendar</module>
   </modules>
 
 </project>

@@ -5,28 +5,28 @@
 
   <parent>
     <groupId>org.jbundle.app.office</groupId>
-    <artifactId>jbundle-app-contact-reactor</artifactId>
+    <artifactId>jbundle-app-office-contact-reactor</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.jbundle.app.contact.screen</artifactId>
+  <artifactId>org.jbundle.app.office.contact.screen</artifactId>
   <packaging>bundle</packaging>
   <name>jbundle-app-contact-screen - Contact example</name>
 
   <dependencies>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
-      <artifactId>org.jbundle.app.contact.db</artifactId>
+      <artifactId>org.jbundle.app.office.contact.db</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
-      <artifactId>org.jbundle.model.app.contact</artifactId>
+      <artifactId>org.jbundle.model.app.office.contact</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
-      <artifactId>org.jbundle.res.app.contact</artifactId>
+      <artifactId>org.jbundle.res.app.office.contact</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>

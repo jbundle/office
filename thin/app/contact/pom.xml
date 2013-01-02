@@ -5,35 +5,30 @@
 
   <parent>
     <groupId>org.jbundle.app.office</groupId>
-    <artifactId>jbundle-app-office-contact-reactor</artifactId>
+    <artifactId>jbundle-office-thin-app-reactor</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.jbundle.app.office.contact.db</artifactId>
+  <artifactId>org.jbundle.thin.app.office.contact</artifactId>
   <packaging>bundle</packaging>
-  <name>jbundle-app-office-contact-db - Contact db</name>
+  <name>jbundle-thin-app-office-contact</name>
 
   <dependencies>
     <dependency>
+      <groupId>org.jbundle.config.dep</groupId>
+      <artifactId>jbundle-config-dep-thin</artifactId>
+      <version>${jbundleVersionRange}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
       <groupId>org.jbundle.app.office</groupId>
-      <artifactId>org.jbundle.model.app.office.contact</artifactId>
+      <artifactId>org.jbundle.thin.app.office.contact.db</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.res.app.office.contact</artifactId>
       <version>1.0.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-        <groupId>org.jbundle.config.dep</groupId>
-        <artifactId>jbundle-config-dep-base</artifactId>	<!-- jbundle-config-dep-main is all that is needed for compile, run needs all -->
-        <version>${jbundleVersionRange}</version>
-        <type>pom</type>
-    </dependency>
-    <dependency>
-      <groupId>org.jbundle.main</groupId>
-      <artifactId>org.jbundle.main.db</artifactId>
-      <version>${jbundleVersionRange}</version>
     </dependency>
   </dependencies>
 
