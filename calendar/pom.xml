@@ -15,7 +15,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <!-- module>res</module -->
+    <module>screen</module>
   </modules>
 
 </project>

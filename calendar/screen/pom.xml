@@ -16,9 +16,14 @@
   <dependencies>
     <dependency>
         <groupId>org.jbundle.config.dep</groupId>
-        <artifactId>jbundle-config-dep-all</artifactId>	<!-- jbundle-config-dep-main is all that is needed for compile, run needs all -->
+        <artifactId>jbundle-config-dep-base</artifactId>	<!-- jbundle-config-dep-main is all that is needed for compile, run needs all -->
         <version>${jbundleVersionRange}</version>
         <type>pom</type>
+    </dependency>
+    <dependency>
+        <groupId>org.jbundle.main</groupId>
+        <artifactId>org.jbundle.main.calendar</artifactId>	<!-- jbundle-config-dep-main is all that is needed for compile, run needs all -->
+        <version>${jbundleVersionRange}</version>
     </dependency>
   </dependencies>
 
