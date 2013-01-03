@@ -30,6 +30,7 @@
   <modules>
     <module>contact</module>
     <module>calendar</module>
+    <module>thin</module>
     <module>app</module>
   </modules>
 
