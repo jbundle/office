@@ -3,7 +3,7 @@
 		<LastChanged>2012-12-30T12:06:17</LastChanged>
 		<Deleted>N</Deleted>
 		<CalendarEntryTypeID>1</CalendarEntryTypeID>
-		<StartDateTime>2013-01-11T05:09:20</StartDateTime>
+		<StartDateTime>2013-01-18T10:40:00</StartDateTime>
 		<EndDateTime/>
 		<Description>Test</Description>
 		<CalendarCategoryID/>
@@ -18,6 +18,18 @@
 		<StartDateTime>2013-01-23T12:00:00</StartDateTime>
 		<EndDateTime/>
 		<Description>test</Description>
+		<CalendarCategoryID>1</CalendarCategoryID>
+		<Hidden>N</Hidden>
+		<Properties/>
+		<AnnivMasterID/>
+	</CalendarEntry>
+	<CalendarEntry ID="4">
+		<LastChanged>2013-01-03T13:17:05</LastChanged>
+		<Deleted>N</Deleted>
+		<CalendarEntryTypeID>1</CalendarEntryTypeID>
+		<StartDateTime>2013-01-16T13:30:40</StartDateTime>
+		<EndDateTime/>
+		<Description>test111111111111111</Description>
 		<CalendarCategoryID>1</CalendarCategoryID>
 		<Hidden>N</Hidden>
 		<Properties/>

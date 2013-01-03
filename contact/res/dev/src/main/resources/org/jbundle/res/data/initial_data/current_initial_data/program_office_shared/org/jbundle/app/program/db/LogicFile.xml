@@ -321,4 +321,20 @@ this.add(this.createComponentButton(CalendarEntryTypeField.ANNIVERSARY, applet))
 		<CopyFrom/>
 		<IncludeScope>4</IncludeScope>
 	</LogicFile>
+	<LogicFile ID="5886">
+		<LastChanged>2013-01-03T14:55:15</LastChanged>
+		<Deleted>N</Deleted>
+		<Sequence>10</Sequence>
+		<MethodName>init</MethodName>
+		<LogicDescription/>
+		<MethodReturns/>
+		<MethodInterface/>
+		<MethodClassName>OfficeCalendarScreen</MethodClassName>
+		<LogicSource><![CDATA[super;
+this.getMainRecord().setupRecordListener(this, true, false, true); // Listen for adds]]></LogicSource>
+		<LogicThrows/>
+		<Protection/>
+		<CopyFrom/>
+		<IncludeScope>4</IncludeScope>
+	</LogicFile>
 </file>
