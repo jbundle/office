@@ -56,11 +56,9 @@ public class ThinContactApplet extends BaseApplet
     public boolean addSubPanels(Container parent)
     {
         FieldList record = null;
-        JScreen baseScreen = new ContactThinScreen(this, record);
-
         boolean success = super.addSubPanels(parent);
-        if (success)
-        	success = this.changeSubScreen(parent, baseScreen, null);
+        if (!success)
+        	success = this.changeSubScreen(parent, new ContactThinScreen(this, record), null);
         return success;
     }
     /**

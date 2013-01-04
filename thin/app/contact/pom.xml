@@ -13,6 +13,10 @@
   <packaging>bundle</packaging>
   <name>jbundle-thin-app-office-contact</name>
 
+  <properties>
+    <mainClass>${project.artifactId}.ThinContactApplet</mainClass>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.jbundle.config.dep</groupId>
