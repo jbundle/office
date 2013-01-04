@@ -1,7 +1,7 @@
 /*
  * Copyright © 2012 jbundle.org. All rights reserved.
  */
-package org.jbundle.thin.app.calendar;
+package org.jbundle.thin.app.office.calendar;
 
 /**
  * OrderEntry.java:   Applet
@@ -10,38 +10,34 @@ package org.jbundle.thin.app.calendar;
  *  @author Don Corley don@tourgeek.com
  *  @version 1.0.0.
  */
-import java.awt.Container;
-
 import javax.swing.JComponent;
 
 import org.jbundle.thin.base.db.Converter;
 import org.jbundle.thin.base.db.FieldList;
-import org.jbundle.thin.base.remote.RemoteSession;
 import org.jbundle.thin.base.screen.BaseApplet;
 import org.jbundle.thin.base.screen.JScreen;
 import org.jbundle.thin.base.screen.JScreenToolbar;
-import org.jbundle.thin.main.calendar.db.AnnivMaster;
-import org.jbundle.thin.main.calendar.db.Anniversary;
+import org.jbundle.thin.main.calendar.db.Appointment;
 
 
 /**
  * Main Class for applet OrderEntry
  */
-public class AnniversaryScreen extends JScreen
+public class AppointmentScreen extends JScreen
 {
 	private static final long serialVersionUID = 1L;
     
     /**
      *  OrderEntry Class Constructor.
      */
-    public AnniversaryScreen()
+    public AppointmentScreen()
     {
         super();
     }
     /**
      *  OrderEntry Class Constructor.
      */
-    public AnniversaryScreen(Object parent, Object obj)
+    public AppointmentScreen(Object parent,Object obj)
     {
         this();
         this.init(parent, obj);
@@ -57,17 +53,14 @@ public class AnniversaryScreen extends JScreen
     {
         super.init(parent, obj);
         if (this.getFieldList().getTable() == null)
-        {
-            RemoteSession remoteSession = ((BaseApplet)parent).makeRemoteSession(null, ".main.calendar.remote.AnniversaryTableSession");
-            ((BaseApplet)parent).linkRemoteSessionTable(remoteSession, this.getFieldList(), false);
-        }
+            ((BaseApplet)parent).linkNewRemoteTable(this.getFieldList());
     }
     /**
      * Build the list of fields that make up the screen.
      */
     public FieldList buildFieldList()
     {
-        return new AnnivMaster(null); // If overriding class didn't set this
+        return new Appointment(null); // If overriding class didn't set this
     }
     /**
      * Add the toolbars?
@@ -77,18 +70,24 @@ public class AnniversaryScreen extends JScreen
         return new JScreenToolbar(this, null);
     }
     /**
-     * Add this label to the first column of the grid.
+     * Get this field (or return null if this field doesn't belong on the screen).
+     * This is the method to use to filter the items to display on the screen.
+     * @param The index of this field in the record.
+     * @return The fieldinfo object.
      */
-    public JComponent addScreenLabel(Container parent, Converter fieldInfo)
+    public Converter getFieldForScreen(int iIndex)
     {
-        return super.addScreenLabel(parent, fieldInfo);
-    }
-    /**
-     * Add the screen controls to the second column of the grid.
-     */
-    public JComponent addScreenControl(Container parent, Converter fieldInfo)
-    {
-        return super.addScreenControl(parent, fieldInfo);
+        switch (iIndex)
+        {
+            case 0:
+                return this.getFieldList().getField(Appointment.START_DATE_TIME).getFieldConverter();
+            case 1:
+                return this.getFieldList().getField(Appointment.END_DATE_TIME).getFieldConverter();
+            case 2:
+                return this.getFieldList().getField(Appointment.DESCRIPTION).getFieldConverter();
+            default:
+        }
+        return null;
     }
     /**
      * Add the screen controls to the second column of the grid.
@@ -98,8 +97,8 @@ public class AnniversaryScreen extends JScreen
      */
     public JComponent createScreenComponent(Converter fieldInfo)
     {
-        if ((Anniversary.START_DATE_TIME.equalsIgnoreCase(fieldInfo.getFieldName()))
-            || (Anniversary.END_DATE_TIME.equalsIgnoreCase(fieldInfo.getFieldName())))
+        if ((Appointment.START_DATE_TIME.equalsIgnoreCase(fieldInfo.getFieldName()))
+            || (Appointment.END_DATE_TIME.equalsIgnoreCase(fieldInfo.getFieldName())))
                 return new org.jbundle.thin.base.screen.util.cal.JCalendarDualField(fieldInfo);
         return super.createScreenComponent(fieldInfo);
     }

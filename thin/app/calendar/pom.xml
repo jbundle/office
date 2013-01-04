@@ -13,6 +13,10 @@
   <packaging>bundle</packaging>
   <name>jbundle-thin-app-office-calendar - Thin calendar</name>
 
+  <properties>
+    <screen>${project.artifactId}.AppointmentCalendarScreen</screen>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.jbundle.config.dep</groupId>
@@ -21,4 +25,5 @@
       <type>pom</type>
     </dependency>
   </dependencies>
+
 </project>
