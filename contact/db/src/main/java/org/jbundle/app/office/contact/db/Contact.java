@@ -5,7 +5,6 @@
  */
 package org.jbundle.app.office.contact.db;
 
-import java.awt.*;
 import java.util.*;
 
 import org.jbundle.base.db.*;
@@ -167,6 +166,8 @@ public class Contact extends Company
             field = new StringField(this, HOME_EMAIL, 100, null, null);
         if (iFieldSeq == 27)
             field = new ContactCategoryFilter(this, CONTACT_CATEGORY_ID, Constants.DEFAULT_FIELD_LENGTH, null, null);
+        if (iFieldSeq == 28)
+            field = new ImageField(this, IMAGE, Constants.DEFAULT_FIELD_LENGTH, null, null);
         if (field == null)
             field = super.setupField(iFieldSeq);
         return field;
@@ -194,8 +195,8 @@ public class Contact extends Company
         }
         if (iKeyArea == 3)
         {
-            keyArea = this.makeIndex(DBConstants.NOT_UNIQUE, CONTACT_KEY);
-            keyArea.addKeyField(CONTACT, DBConstants.ASCENDING);
+            keyArea = this.makeIndex(DBConstants.SECONDARY_KEY, CODE_KEY);
+            keyArea.addKeyField(CODE, DBConstants.ASCENDING);
         }
         if (keyArea == null)
             keyArea = super.setupKey(iKeyArea);     

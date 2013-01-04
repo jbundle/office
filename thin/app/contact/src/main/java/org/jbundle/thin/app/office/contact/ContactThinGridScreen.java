@@ -13,10 +13,9 @@ package org.jbundle.thin.app.office.contact;
 
 import org.jbundle.thin.app.office.contact.db.Contact;
 import org.jbundle.thin.base.db.FieldList;
-import org.jbundle.thin.base.remote.RemoteSession;
 import org.jbundle.thin.base.screen.AbstractThinTableModel;
+import org.jbundle.thin.base.screen.JBaseScreen;
 import org.jbundle.thin.base.screen.grid.JGridScreen;
-import org.jbundle.thin.base.screen.grid.ThinTableModel;
 import org.jbundle.thin.base.util.message.ThinMessageManager;
 
 
@@ -73,10 +72,7 @@ public class ContactThinGridScreen extends JGridScreen
      */
     public FieldList buildFieldList()
     {
-        FieldList record = new Contact(this);
-        RemoteSession remoteSession = this.getBaseApplet().makeRemoteSession(null, ".test.manual.optcode.thinmessage.remote.TestGridSession");
-        this.getBaseApplet().linkRemoteSessionTable(remoteSession, record, true);
-        return record;
+        return new Contact(null);   // If overriding class didn't set this
     }
     /**
      * Build the list of fields that make up the screen.
@@ -85,6 +81,15 @@ public class ContactThinGridScreen extends JGridScreen
      */
     public AbstractThinTableModel createGridModel(FieldList record)
     {
-        return new ThinTableModel(record.getTable());
+        return new ContactGridModel(record.getTable());
+    }
+    /**
+     * Create a grid screen for this form.
+     * @param record the (optional) record for this screen.
+     * @return The new grid screen.
+     */
+    public JBaseScreen createMaintScreen(FieldList record)
+    {
+        return new ContactThinScreen(this.getParentObject(), record);
     }
 }

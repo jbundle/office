@@ -85,7 +85,7 @@ public class ContactGridScreen extends GridScreen
         recContact.setKeyArea(Contact.NAME_SORT_KEY);
         SortOrderHandler keyBehavior = new SortOrderHandler(this);
         keyBehavior.setGridTable(Contact.NAME_SORT_KEY, recContact, 0);
-        keyBehavior.setGridTable(Contact.CONTACT_KEY, recContact, 1);
+        keyBehavior.setGridTable(Contact.CODE_KEY, recContact, 1);
         keyBehavior.setGridTable(null, recContact, 2);
         keyBehavior.setGridTable(Contact.POSTAL_CODE_SORT_KEY, recContact, 3);
         keyBehavior.setGridTable(null, recContact, 4);

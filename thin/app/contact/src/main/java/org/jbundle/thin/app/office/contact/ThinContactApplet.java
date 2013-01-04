@@ -13,6 +13,7 @@ package org.jbundle.thin.app.office.contact;
 import java.awt.Container;
 
 import org.jbundle.thin.base.db.FieldList;
+import org.jbundle.thin.base.db.Params;
 import org.jbundle.thin.base.screen.BaseApplet;
 import org.jbundle.thin.base.screen.JBaseFrame;
 import org.jbundle.thin.base.screen.JScreen;
@@ -55,10 +56,9 @@ public class ThinContactApplet extends BaseApplet
      */
     public boolean addSubPanels(Container parent)
     {
-        FieldList record = null;
+        if ((this.getProperty(Params.SCREEN) == null) || (this.getProperty(Params.SCREEN).length() == 0))
+            this.setProperty(Params.SCREEN, ContactThinGridScreen.class.getName());
         boolean success = super.addSubPanels(parent);
-        if (!success)
-        	success = this.changeSubScreen(parent, new ContactThinScreen(this, record), null);
         return success;
     }
     /**

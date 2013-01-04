@@ -38,12 +38,11 @@ public interface ContactModel extends CompanyModel
     public static final String HOME_TEL = "HomeTel";
     public static final String HOME_EMAIL = "HomeEmail";
     public static final String CONTACT_CATEGORY_ID = "ContactCategoryID";
+    public static final String IMAGE = "Image";
 
     public static final String NAME_SORT_KEY = "NameSort";
 
     public static final String POSTAL_CODE_SORT_KEY = "PostalCodeSort";
-
-    public static final String CONTACT_KEY = "Contact";
     public static final String CONTACT_SCREEN_CLASS = "org.jbundle.app.office.contact.screen.ContactScreen";
     public static final String CONTACT_GRID_SCREEN_CLASS = "org.jbundle.app.office.contact.screen.ContactGridScreen";
 

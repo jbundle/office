@@ -101,4 +101,59 @@
 		<XmlData/>
 		<MenusHelp/>
 	</Menus>
+	<Menus ID="9">
+		<LastChanged>2013-01-04T10:16:35</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>Thin Menu</Name>
+		<ParentFolderID>6</ParentFolderID>
+		<Sequence>30</Sequence>
+		<Comment/>
+		<Code>Thin</Code>
+		<Type>menu</Type>
+		<AutoDesc>Y</AutoDesc>
+		<Program>Thin</Program>
+		<Params/>
+		<IconResource/>
+		<Keywords/>
+		<XmlData/>
+		<MenusHelp/>
+	</Menus>
+	<Menus ID="10">
+		<LastChanged>2013-01-04T10:17:56</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>Thin Contact Screen</Name>
+		<ParentFolderID>9</ParentFolderID>
+		<Sequence>10</Sequence>
+		<Comment/>
+		<Code/>
+		<Type>applet</Type>
+		<AutoDesc>Y</AutoDesc>
+		<Program>.thin.app.office.contact.ThinContactApplet</Program>
+		<Params/>
+		<IconResource/>
+		<Keywords/>
+		<XmlData/>
+		<MenusHelp/>
+	</Menus>
+	<Menus ID="11">
+		<LastChanged>2013-01-04T10:19:29</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>Thin Calendar Screen</Name>
+		<ParentFolderID>9</ParentFolderID>
+		<Sequence>20</Sequence>
+		<Comment/>
+		<Code/>
+		<Type>applet</Type>
+		<AutoDesc>Y</AutoDesc>
+		<Program>.thin.ThinApplet</Program>
+		<Params type="XML"><properties>
+<comment>Field properties</comment>
+<entry key="screen">.thin.app.office.calendar..AppointmentCalendarScreen</entry>
+</properties>
+</Params>
+		<IconResource/>
+		<Keywords/>
+		<XmlData/>
+		<MenusHelp/>
+	</Menus>
 </file>

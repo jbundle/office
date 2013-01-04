@@ -97,6 +97,8 @@ public class Contact extends Company
         field = new FieldInfo(this, HOME_EMAIL, 100, null, null);
         field = new FieldInfo(this, CONTACT_CATEGORY_ID, Constants.DEFAULT_FIELD_LENGTH, null, null);
         field.setDataClass(Integer.class);
+        field = new FieldInfo(this, IMAGE, Constants.DEFAULT_FIELD_LENGTH, null, null);
+        field.setDataClass(Object.class);
     }
     /**
     * Set up the key areas.
@@ -110,8 +112,8 @@ public class Contact extends Company
         keyArea.addKeyField(NAME_SORT, Constants.ASCENDING);
         keyArea = new KeyAreaInfo(this, Constants.NOT_UNIQUE, POSTAL_CODE_SORT_KEY);
         keyArea.addKeyField(POSTAL_CODE_SORT, Constants.ASCENDING);
-        keyArea = new KeyAreaInfo(this, Constants.NOT_UNIQUE, CONTACT_KEY);
-        keyArea.addKeyField(CONTACT, Constants.ASCENDING);
+        keyArea = new KeyAreaInfo(this, Constants.SECONDARY_KEY, CODE_KEY);
+        keyArea.addKeyField(CODE, Constants.ASCENDING);
     }
 
 }

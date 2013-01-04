@@ -54,11 +54,11 @@
 		<IncludeScope>4</IncludeScope>
 	</KeyInfo>
 	<KeyInfo ID="426">
-		<LastChanged>2009-02-12T14:49:21</LastChanged>
+		<LastChanged>2013-01-04T10:15:43</LastChanged>
 		<Deleted>N</Deleted>
 		<KeyFilename>Contact</KeyFilename>
 		<KeyNumber>4</KeyNumber>
-		<KeyField1>Contact</KeyField1>
+		<KeyField1>Code</KeyField1>
 		<KeyField2/>
 		<KeyField3/>
 		<KeyField4/>
@@ -68,7 +68,7 @@
 		<KeyField8/>
 		<KeyField9/>
 		<KeyName/>
-		<KeyType>N</KeyType>
+		<KeyType>S</KeyType>
 		<IncludeScope>4</IncludeScope>
 	</KeyInfo>
 	<KeyInfo ID="745">
