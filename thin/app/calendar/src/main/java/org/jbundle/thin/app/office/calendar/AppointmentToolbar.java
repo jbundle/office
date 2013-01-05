@@ -44,6 +44,7 @@ public class AppointmentToolbar extends JMenuToolbar
      */
     public void addButtons()
     {
+        this.addButton(Constants.BACK);
         this.addButton(APPOINTMENT);
         this.addButton(ANNIVERSARY);
         this.addButton(Constants.DELETE);
