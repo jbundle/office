@@ -9,9 +9,16 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>jbundle-app-office</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>org.jbundle.app.office</artifactId>
+  <packaging>bundle</packaging>
   <name>jbundle-app-office</name>
+  
+  <properties>
+    <jbundlePackageImport>
+        *;resolution:=optional,
+        org.jbundle.res.app.office.contact.*;resolution:=optional,
+    </jbundlePackageImport>
+  </properties>
 
   <dependencies>
     <dependency>
