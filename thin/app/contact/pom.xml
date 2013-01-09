@@ -9,12 +9,16 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.jbundle.thin.app.office.contact</artifactId>
+  <artifactId>org.jbundle.thin.app.office.contact.app</artifactId>
   <packaging>bundle</packaging>
-  <name>jbundle-thin-app-office-contact</name>
+  <name>jbundle-thin-app-office-contact-app</name>
 
   <properties>
     <mainClass>${project.artifactId}.ThinContactApplet</mainClass>
+    <jbundlePackageImport>
+        *;resolution:=optional,
+        org.jbundle.res.app.office.contact.*;resolution:=optional,
+    </jbundlePackageImport>
   </properties>
 
   <dependencies>

@@ -1,7 +1,7 @@
 /*
  * Copyright © 2012 jbundle.org. All rights reserved.
  */
-package org.jbundle.thin.app.office.contact;
+package org.jbundle.thin.app.office.contact.app;
 
 /**
  * JScreen.java:    Applet

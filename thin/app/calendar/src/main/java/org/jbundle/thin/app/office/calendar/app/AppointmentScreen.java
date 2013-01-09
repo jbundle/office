@@ -1,7 +1,7 @@
 /*
  * Copyright © 2012 jbundle.org. All rights reserved.
  */
-package org.jbundle.thin.app.office.calendar;
+package org.jbundle.thin.app.office.calendar.app;
 
 /**
  * OrderEntry.java:   Applet

@@ -9,9 +9,9 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.jbundle.thin.app.office.calendar</artifactId>
+  <artifactId>org.jbundle.thin.app.office.calendar.app</artifactId>
   <packaging>bundle</packaging>
-  <name>jbundle-thin-app-office-calendar - Thin calendar</name>
+  <name>jbundle-thin-app-office-calendar-app - Thin calendar</name>
 
   <properties>
     <screen>${project.artifactId}.AppointmentCalendarScreen</screen>

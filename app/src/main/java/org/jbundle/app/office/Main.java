@@ -1,11 +1,11 @@
 package org.jbundle.app.office;
 
 import org.jbundle.app.office.contact.screen.*;
-// import org.jbundle.res.app.office.contact.db.*;
+//import org.jbundle.res.app.office.contact.db.*;
 import org.jbundle.app.office.calendar.screen.*;
 import org.jbundle.app.office.calendar.screen.view.swing.*;
-import org.jbundle.thin.app.office.contact.db.*;
-import org.jbundle.thin.app.office.calendar.*;
+import org.jbundle.thin.app.office.contact.app.*;
+import org.jbundle.thin.app.office.calendar.app.*;
 
 public class Main extends org.jbundle.Main {
 
