@@ -17,8 +17,13 @@
     <jbundlePackageFilter>${jbundlePackage}</jbundlePackageFilter>	<!-- Only this package, not included packages -->
     <jbundlePackageImport>
         *;resolution:=optional,
-        org.jbundle.res.app.office.contact.*;resolution:=optional,
-    </jbundlePackageImport>
+	org.jbundle.app.office.contact.screen;resolution:=optional,
+	org.jbundle.res.app.office.contact.db;resolution:=optional,
+	org.jbundle.app.office.calendar.screen;resolution:=optional,
+	org.jbundle.app.office.calendar.screen.view.swing;resolution:=optional,
+	org.jbundle.thin.app.office.contact.app;resolution:=optional,
+	org.jbundle.thin.app.office.calendar.app;resolution:=optional,
+    </jbundlePackageImport>	<!-- This will load all the dependent projects for OSGi -->
   </properties>
 
   <dependencies>

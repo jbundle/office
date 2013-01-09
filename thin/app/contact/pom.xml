@@ -17,7 +17,7 @@
     <mainClass>${project.artifactId}.ThinContactApplet</mainClass>
     <jbundlePackageImport>
         *;resolution:=optional,
-        org.jbundle.res.app.office.contact.*;resolution:=optional,
+        org.jbundle.res.app.office.contact.db;resolution:=optional,
     </jbundlePackageImport>
   </properties>
 
