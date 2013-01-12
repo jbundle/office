@@ -54,11 +54,11 @@ public class ThinContactApplet extends BaseApplet
     /**
      * Add any applet sub-panel(s) now.
      */
-    public boolean addSubPanels(Container parent)
+    public boolean addSubPanels(Container parent, int options)
     {
         if ((this.getProperty(Params.SCREEN) == null) || (this.getProperty(Params.SCREEN).length() == 0))
             this.setProperty(Params.SCREEN, ContactThinGridScreen.class.getName());
-        boolean success = super.addSubPanels(parent);
+        boolean success = super.addSubPanels(parent, options);
         return success;
     }
     /**

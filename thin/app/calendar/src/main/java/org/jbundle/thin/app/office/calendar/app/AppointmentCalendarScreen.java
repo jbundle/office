@@ -125,7 +125,7 @@ public class AppointmentCalendarScreen extends JCalendarScreen
             if (screen == null)
                 screen = new JScreen();
             screen.init(job, record);
-            job.changeSubScreen(null, screen, null);
+            job.changeSubScreen(null, screen, null, Constants.DONT_PUSH_TO_BROWSER);
             job.run();
         }
     }
