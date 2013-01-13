@@ -22,9 +22,9 @@
   </properties>
 
   <scm>
-    <url>https://github.com/jbundle/app-contact</url>
-    <connection>scm:git:git://github.com/jbundle/app-contact.git</connection>
-    <developerConnection>scm:git:git@github.com:jbundle/app-contact.git</developerConnection>
+    <url>https://github.com/jbundle/office</url>
+    <connection>scm:git:git://github.com/jbundle/office</connection>
+    <developerConnection>scm:git:git@github.com:jbundle/office</developerConnection>
   </scm>
 
   <modules>
