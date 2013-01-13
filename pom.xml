@@ -7,7 +7,7 @@
     <groupId>org.jbundle.config</groupId>
     <artifactId>jbundle-parent</artifactId>
     <version>1.2.6-SNAPSHOT</version>
-    <relativePath>../../jbundle-parent</relativePath>
+    <relativePath>../../jbundle/jbundle-parent</relativePath>
   </parent>
 
   <groupId>org.jbundle.app.office</groupId>
