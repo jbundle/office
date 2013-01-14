@@ -7,8 +7,8 @@
 		<SourceDirectory>src/main/java/</SourceDirectory>
 		<ResourcesDirectory>src/main/resources/</ResourcesDirectory>
 		<ClassDirectory>target/classes/</ClassDirectory>
-		<ArchiveDirectory>workspace/workspace/jbundle/app/office/contact/res/data/src/main/resources/</ArchiveDirectory>
-		<DevArchiveDirectory>workspace/workspace/jbundle/app/office/contact/res/dev/src/main/resources/</DevArchiveDirectory>
+		<ArchiveDirectory>workspace/workspace/app/office/contact/res/data/src/main/resources/</ArchiveDirectory>
+		<DevArchiveDirectory>workspace/workspace/app/office/contact/res/dev/src/main/resources/</DevArchiveDirectory>
 		<ResourceType>Properties</ResourceType>
 		<ClassResourceType>Properties</ClassResourceType>
 		<PackageName/>
