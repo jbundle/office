@@ -22,7 +22,7 @@
     <dependency>
       <groupId>org.jbundle.base.screen</groupId>
       <artifactId>org.jbundle.base.screen.view.swing</artifactId>
-      <version>1.1.0-SNAPSHOT</version>
+      <version>${jbundleSwingVersionRange}</version>
     </dependency>
   </dependencies>
 
