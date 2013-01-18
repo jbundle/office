@@ -12,11 +12,9 @@ package org.jbundle.thin.app.office.contact.app;
  */
 import java.awt.Container;
 
-import org.jbundle.thin.base.db.FieldList;
 import org.jbundle.thin.base.db.Params;
 import org.jbundle.thin.base.screen.BaseApplet;
 import org.jbundle.thin.base.screen.JBaseFrame;
-import org.jbundle.thin.base.screen.JScreen;
 
 
 /**

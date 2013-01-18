@@ -123,12 +123,8 @@ public class ContactGridModel extends ThinTableModel
         switch (iColumnIndex) // RequestInputID
         {
             case ADD_BUTTON_COLUMN:
-                if (iEditMode == Constants.EDIT_NONE)
-                    return null;
                 return BaseApplet.getSharedInstance().loadImageIcon(Constants.FILE_ROOT + Constants.FORM, Constants.BLANK);
             case DELETE_BUTTON_COLUMN:
-                if (iEditMode == Constants.EDIT_NONE)
-                    return null;
                 return BaseApplet.getSharedInstance().loadImageIcon(Constants.FILE_ROOT + Constants.DELETE, Constants.BLANK);
         }
         return super.getColumnValue(iColumnIndex, iEditMode);
@@ -143,13 +139,13 @@ public class ContactGridModel extends ThinTableModel
         switch (iColumnIndex)
         {
         case ADD_BUTTON_COLUMN:
-            ImageIcon icon = (ImageIcon)this.getValueAt(0, iColumnIndex);
+            ImageIcon icon = (ImageIcon)this.getValueAt(-1, iColumnIndex);
             JCellButton button = new JCellButton(icon);
             button.setOpaque(false);
             button.setName(Constants.FORM);
             return button;
         case DELETE_BUTTON_COLUMN:
-            ImageIcon icon2 = (ImageIcon)this.getValueAt(0, iColumnIndex);
+            ImageIcon icon2 = (ImageIcon)this.getValueAt(-1, iColumnIndex);
             JCellButton button3 = new JCellButton(icon2);
             button3.setOpaque(false);
             button3.setName(Constants.DELETE);
@@ -168,7 +164,7 @@ public class ContactGridModel extends ThinTableModel
         {
         case ADD_BUTTON_COLUMN:
         case DELETE_BUTTON_COLUMN:
-            ImageIcon icon = (ImageIcon)this.getValueAt(0, iColumnIndex);
+            ImageIcon icon = (ImageIcon)this.getValueAt(-1, iColumnIndex);
             JCellButton button = new JCellButton(icon);
             return button;
         }

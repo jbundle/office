@@ -24,6 +24,7 @@ import org.jbundle.thin.base.message.event.ModelMessageHandler;
 import org.jbundle.thin.base.message.session.ClientSessionMessageFilter;
 import org.jbundle.thin.base.remote.RemoteSession;
 import org.jbundle.thin.base.screen.cal.grid.CalendarThinTableModel;
+import org.jbundle.thin.base.util.message.ThinMessageManager;
 
 
 /**
@@ -59,28 +60,12 @@ public class AppointmentMessageCalendarScreen extends AppointmentCalendarScreen
     public void init(Object parent, Object record)
     {
         super.init(parent, record);
-        
-        JMessageListener listenerForSession = new ModelMessageHandler(null, (CalendarThinTableModel)this.getCalendarModel(null));
-
-        RemoteSession remoteSession = ((RemoteFieldTable)this.getFieldList().getTable()).getRemoteTableType(org.jbundle.model.Remote.class);
-
-        MessageManager messageManager = this.getBaseApplet().getApplication().getMessageManager();
-        MessageReceiver handler = messageManager.getMessageQueue(MessageConstants.RECORD_QUEUE_NAME, MessageConstants.INTRANET_QUEUE).getMessageReceiver();
-
-        Properties properties = new Properties();
-        properties.setProperty(MessageConstants.CLASS_NAME, MessageConstants.GRID_FILTER);
-        BaseMessageFilter filterForSession = new ClientSessionMessageFilter(MessageConstants.RECORD_QUEUE_NAME, MessageConstants.INTRANET_QUEUE, this, remoteSession, properties);
-        filterForSession.addMessageListener(listenerForSession);
-        handler.addMessageFilter(filterForSession);
     }
     /**
      * Free the sub=components.
      */
     public void free()
     {
-        BaseMessageManager messageManager = (BaseMessageManager)this.getBaseApplet().getApplication().getMessageManager();
-        messageManager.freeListenersWithSource(this);
-        messageManager.freeFiltersWithSource(this);
         super.free();
     }
     /**

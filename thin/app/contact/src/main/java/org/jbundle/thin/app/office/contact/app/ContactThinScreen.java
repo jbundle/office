@@ -31,7 +31,6 @@ import org.jbundle.thin.base.screen.BaseApplet;
 import org.jbundle.thin.base.screen.JBaseScreen;
 import org.jbundle.thin.base.screen.JScreen;
 import org.jbundle.thin.base.screen.grid.JCellRemoteComboBox;
-import org.jbundle.thin.base.screen.util.JFSCheckBox;
 import org.jbundle.thin.base.screen.util.JFSImage;
 import org.jbundle.thin.base.screen.util.JFSTextScroller;
 import org.jbundle.thin.base.util.message.ThinMessageManager;

@@ -28,6 +28,7 @@ import org.jbundle.util.calendarpanel.event.MyListSelectionEvent;
 import org.jbundle.util.calendarpanel.event.MyListSelectionListener;
 import org.jbundle.util.calendarpanel.model.CalendarModel;
 import org.jbundle.thin.base.util.Application;
+import org.jbundle.thin.base.util.message.ThinMessageManager;
 import org.jbundle.thin.main.calendar.db.Anniversary;
 
 
@@ -65,6 +66,17 @@ public class AppointmentCalendarScreen extends JCalendarScreen
         super.init(parent, record);
         
         this.getCalendarModel(null).addMySelectionListener(this);
+        
+        ThinMessageManager.createScreenMessageListener(this.getFieldList(), this);
+    }
+    /**
+     * Cleanup.
+     */
+    public void free()
+    {
+        ThinMessageManager.freeScreenMessageListeners(this);
+        
+        super.free();
     }
     /**
      * Build the list of fields that make up the screen.
