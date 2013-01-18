@@ -63,7 +63,6 @@ public class OfficeCalendarScreen extends CalendarEntryCalendarScreen
     public void init(Record record, ScreenLocation itsLocation, BasePanel parentScreen, Converter fieldConverter, int iDisplayFieldDesc, Map<String,Object> properties)
     {
         super.init(record, itsLocation, parentScreen, fieldConverter, iDisplayFieldDesc, properties);
-        this.getMainRecord().setupRecordListener(this, true, false, true); // Listen for adds
     }
     /**
      * SetupSFields Method.
