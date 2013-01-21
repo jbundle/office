@@ -128,12 +128,11 @@
 		<Code/>
 		<Type>applet</Type>
 		<AutoDesc>Y</AutoDesc>
-		<Program></Program>
+		<Program/>
 		<Params type="XML"><properties>
 <comment>Field properties</comment>
 <entry key="screen">.thin.app.office.contact.app.ContactThinGridScreen</entry>
-</properties>
-</Params>
+</properties></Params>
 		<IconResource/>
 		<Keywords/>
 		<XmlData/>
@@ -149,12 +148,11 @@
 		<Code/>
 		<Type>applet</Type>
 		<AutoDesc>Y</AutoDesc>
-		<Program></Program>
+		<Program/>
 		<Params type="XML"><properties>
 <comment>Field properties</comment>
 <entry key="screen">.thin.app.office.calendar.app.AppointmentCalendarScreen</entry>
-</properties>
-</Params>
+</properties></Params>
 		<IconResource/>
 		<Keywords/>
 		<XmlData/>

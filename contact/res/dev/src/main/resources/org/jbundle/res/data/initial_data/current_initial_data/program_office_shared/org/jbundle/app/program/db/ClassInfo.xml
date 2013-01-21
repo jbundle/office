@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
 	<ClassInfo ID="1">
-		<LastChanged>2013-01-04T10:15:57</LastChanged>
+		<LastChanged>2013-01-21T10:30:52</LastChanged>
 		<Deleted>N</Deleted>
 		<ClassName>Contact</ClassName>
 		<BaseClassName>Company</BaseClassName>
@@ -119,7 +119,7 @@
 		<CopyDescFrom/>
 	</ClassInfo>
 	<ClassInfo ID="9">
-		<LastChanged>2013-01-03T14:55:18</LastChanged>
+		<LastChanged>2013-01-21T10:29:52</LastChanged>
 		<Deleted>N</Deleted>
 		<ClassName>OfficeCalendarScreen</ClassName>
 		<BaseClassName>CalendarEntryCalendarScreen</BaseClassName>

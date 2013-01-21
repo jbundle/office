@@ -5,7 +5,6 @@
  */
 package org.jbundle.app.office.calendar.screen.view.swing;
 
-import java.awt.*;
 import java.util.*;
 
 import org.jbundle.base.db.*;
@@ -41,7 +40,7 @@ public class VCalendarPopupPanel extends VScreenField
     /**
      * VCalendarPopupPanel Method.
      */
-    public VCalendarPopupPanel(ScreenField model,boolean bEditableControl)
+    public VCalendarPopupPanel(ScreenField model, boolean bEditableControl)
     {
         this();
         this.init(model, bEditableControl);

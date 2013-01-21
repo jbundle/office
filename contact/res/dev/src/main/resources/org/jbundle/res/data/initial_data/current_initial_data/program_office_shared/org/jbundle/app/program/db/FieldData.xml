@@ -681,4 +681,26 @@
 		<Hidden/>
 		<IncludeScope>1</IncludeScope>
 	</FieldData>
+	<FieldData ID="7071">
+		<LastChanged>2013-01-21T10:30:24</LastChanged>
+		<Deleted>N</Deleted>
+		<FieldName>Image</FieldName>
+		<FieldClass>ImageField</FieldClass>
+		<BaseFieldName/>
+		<DependentFieldName/>
+		<MinimumLength/>
+		<MaximumLength/>
+		<DefaultValue/>
+		<InitialValue/>
+		<FieldDescription/>
+		<FieldDescVertical/>
+		<FieldType/>
+		<FieldDimension/>
+		<FieldFileName>Contact</FieldFileName>
+		<FieldSeqNo>310</FieldSeqNo>
+		<FieldNotNull/>
+		<DataClass/>
+		<Hidden/>
+		<IncludeScope>4</IncludeScope>
+	</FieldData>
 </file>
