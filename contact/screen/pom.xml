@@ -11,7 +11,7 @@
 
   <artifactId>org.jbundle.app.office.contact.screen</artifactId>
   <packaging>bundle</packaging>
-  <name>jbundle-app-contact-screen - Contact example</name>
+  <name>jbundle-app-office-contact-screen - Contact example</name>
 
   <dependencies>
     <dependency>
