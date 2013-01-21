@@ -24,6 +24,7 @@ import org.jbundle.base.screen.view.swing.*;
 import org.jbundle.base.screen.model.*;
 import org.jbundle.util.calendarpanel.*;
 import org.jbundle.thin.base.screen.*;
+import java.awt.*;
 
 /**
  *  VCalendarPopupPanel - .

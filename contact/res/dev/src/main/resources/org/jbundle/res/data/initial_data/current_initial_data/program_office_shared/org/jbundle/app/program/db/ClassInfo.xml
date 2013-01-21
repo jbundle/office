@@ -170,7 +170,7 @@
 		<CopyDescFrom/>
 	</ClassInfo>
 	<ClassInfo ID="12">
-		<LastChanged>2013-01-02T10:12:12</LastChanged>
+		<LastChanged>2013-01-21T11:20:47</LastChanged>
 		<Deleted>N</Deleted>
 		<ClassName>VCalendarPopupPanel</ClassName>
 		<BaseClassName>VScreenField</BaseClassName>

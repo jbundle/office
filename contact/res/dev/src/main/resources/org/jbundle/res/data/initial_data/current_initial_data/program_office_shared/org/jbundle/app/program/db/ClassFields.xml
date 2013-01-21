@@ -179,4 +179,19 @@
 		<ClassFieldsType>P</ClassFieldsType>
 		<IncludeScope>4</IncludeScope>
 	</ClassFields>
+	<ClassFields ID="3497">
+		<LastChanged>2013-01-21T11:20:14</LastChanged>
+		<Deleted>N</Deleted>
+		<ClassInfoClassName>VCalendarPopupPanel</ClassInfoClassName>
+		<ClassInfoID/>
+		<ClassFieldClass>java.awt</ClassFieldClass>
+		<ClassFieldSequence>0</ClassFieldSequence>
+		<ClassFieldName/>
+		<ClassFieldDesc/>
+		<ClassFieldProtect/>
+		<ClassFieldInitial/>
+		<ClassFieldInitialValue/>
+		<ClassFieldsType>P</ClassFieldsType>
+		<IncludeScope>4</IncludeScope>
+	</ClassFields>
 </file>
