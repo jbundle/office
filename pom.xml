@@ -31,7 +31,7 @@
     <module>contact</module>
     <module>calendar</module>
     <module>thin</module>
-    <module>app</module>
+    <module>main</module>
   </modules>
 
   <repositories>
