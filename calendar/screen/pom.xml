@@ -17,13 +17,13 @@
     <dependency>
         <groupId>org.jbundle.config.dep</groupId>
         <artifactId>jbundle-config-dep-base</artifactId>
-        <version>${jbundleVersionRange}</version>
+        <version>${jbundle-version-range}</version>
         <type>pom</type>
     </dependency>
     <dependency>
         <groupId>org.jbundle.main</groupId>
         <artifactId>org.jbundle.main.calendar</artifactId>
-        <version>${jbundleVersionRange}</version>
+        <version>${jbundle-version-range}</version>
     </dependency>
   </dependencies>
 

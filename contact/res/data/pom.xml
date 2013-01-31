@@ -15,7 +15,7 @@
   <packaging>bundle</packaging>
 
   <properties>
-    <jbundlePackage>org.jbundle.res</jbundlePackage>
+    <jbundle-package>org.jbundle.res</jbundle-package>
   </properties>
 
   <build>

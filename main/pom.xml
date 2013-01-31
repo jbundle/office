@@ -14,8 +14,8 @@
   <name>jbundle-app-office</name>
   
   <properties>
-    <jbundlePackageFilter>${jbundlePackage}</jbundlePackageFilter>	<!-- Only this package, not included packages -->
-    <jbundlePackageImport>
+    <jbundle-package-filter>${jbundle-package}</jbundle-package-filter>	<!-- Only this package, not included packages -->
+    <jbundle-package-import>
         *;resolution:=optional,
 	org.jbundle.app.office.contact.screen;resolution:=optional,
 	org.jbundle.res.app.office.contact.db;resolution:=optional,
@@ -23,7 +23,7 @@
 	org.jbundle.app.office.calendar.screen.view.swing;resolution:=optional,
 	org.jbundle.thin.app.office.contact.app;resolution:=optional,
 	org.jbundle.thin.app.office.calendar.app;resolution:=optional,
-    </jbundlePackageImport>	<!-- This will load all the dependent projects for OSGi -->
+    </jbundle-package-import>	<!-- This will load all the dependent projects for OSGi -->
   </properties>
 
   <dependencies>
@@ -70,7 +70,7 @@
     <dependency>
       <groupId>org.jbundle.base.screen</groupId>
       <artifactId>org.jbundle.base.screen.view.swing</artifactId>
-      <version>${jbundleSwingVersionRange}</version>
+      <version>${jbundle-swing-version-range}</version>
     </dependency>
   </dependencies>
 

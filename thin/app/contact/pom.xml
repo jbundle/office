@@ -15,17 +15,17 @@
 
   <properties>
     <mainClass>${project.artifactId}.ThinContactApplet</mainClass>
-    <jbundlePackageImport>
+    <jbundle-package-import>
         *;resolution:=optional,
         org.jbundle.res.app.office.contact.db;resolution:=optional,
-    </jbundlePackageImport>
+    </jbundle-package-import>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.jbundle.config.dep</groupId>
       <artifactId>jbundle-config-dep-thin</artifactId>
-      <version>${jbundleVersionRange}</version>
+      <version>${jbundle-version-range}</version>
       <type>pom</type>
     </dependency>
     <dependency>
