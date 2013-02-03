@@ -17,13 +17,13 @@ import java.util.Map;
 
 import javax.swing.JComponent;
 
+import org.jbundle.model.RemoteException;
 import org.jbundle.thin.app.office.contact.db.Contact;
 import org.jbundle.thin.app.office.contact.db.ContactCategory;
 import org.jbundle.thin.base.db.Constants;
 import org.jbundle.thin.base.db.Converter;
 import org.jbundle.thin.base.db.FieldInfo;
 import org.jbundle.thin.base.db.FieldList;
-import org.jbundle.thin.base.remote.RemoteException;
 import org.jbundle.thin.base.remote.RemoteSession;
 import org.jbundle.thin.base.remote.RemoteTable;
 import org.jbundle.thin.base.remote.RemoteTask;
