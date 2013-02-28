@@ -186,4 +186,21 @@
 		<TechnicalInfo/>
 		<CopyDescFrom/>
 	</ClassInfo>
+	<ClassInfo ID="13">
+		<LastChanged>2013-02-28T09:11:03</LastChanged>
+		<Deleted>N</Deleted>
+		<ClassName>AddressBook</ClassName>
+		<BaseClassName>VirtualRecord</BaseClassName>
+		<ClassDesc/>
+		<ClassProjectID>14</ClassProjectID>
+		<ClassPackage>.db</ClassPackage>
+		<ClassSourceFile>AddressBook</ClassSourceFile>
+		<ClassType>record</ClassType>
+		<ClassExplain/>
+		<ClassHelp/>
+		<ClassImplements/>
+		<SeeAlso/>
+		<TechnicalInfo/>
+		<CopyDescFrom/>
+	</ClassInfo>
 </file>

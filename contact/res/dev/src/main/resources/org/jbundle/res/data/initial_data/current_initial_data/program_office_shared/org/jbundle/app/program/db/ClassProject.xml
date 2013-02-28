@@ -153,4 +153,26 @@
 		<ArtifactId/>
 		<GroupId/>
 	</ClassProject>
+	<ClassProject ID="14">
+		<LastChanged>2013-02-28T09:11:57</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>addressbook</Name>
+		<ParentFolderID>7</ParentFolderID>
+		<Sequence/>
+		<Comment/>
+		<Code/>
+		<Description/>
+		<SystemClasses/>
+		<PackageName>org.jbundle.app.office.sample.addressbook</PackageName>
+		<ProjectPath/>
+		<InterfacePackage>org.jbundle.app.office.sample.addressbook.model</InterfacePackage>
+		<InterfaceProjectPath/>
+		<ThinPackage>org.jbundle.app.office.sample.addressbook.thin</ThinPackage>
+		<ThinProjectPath/>
+		<ResourcePackage>org.jbundle.app.office.sample.addressbook.res</ResourcePackage>
+		<ResProjectPath/>
+		<Properties/>
+		<ArtifactId/>
+		<GroupId/>
+	</ClassProject>
 </file>

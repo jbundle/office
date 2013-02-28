@@ -703,4 +703,48 @@
 		<Hidden/>
 		<IncludeScope>4</IncludeScope>
 	</FieldData>
+	<FieldData ID="7072">
+		<LastChanged>2013-02-28T09:10:54</LastChanged>
+		<Deleted>N</Deleted>
+		<FieldName>Name</FieldName>
+		<FieldClass/>
+		<BaseFieldName/>
+		<DependentFieldName/>
+		<MinimumLength/>
+		<MaximumLength/>
+		<DefaultValue/>
+		<InitialValue/>
+		<FieldDescription/>
+		<FieldDescVertical/>
+		<FieldType/>
+		<FieldDimension/>
+		<FieldFileName>AddressBook</FieldFileName>
+		<FieldSeqNo/>
+		<FieldNotNull/>
+		<DataClass/>
+		<Hidden/>
+		<IncludeScope>4</IncludeScope>
+	</FieldData>
+	<FieldData ID="7073">
+		<LastChanged>2013-02-28T09:10:56</LastChanged>
+		<Deleted>N</Deleted>
+		<FieldName>Address</FieldName>
+		<FieldClass/>
+		<BaseFieldName/>
+		<DependentFieldName/>
+		<MinimumLength/>
+		<MaximumLength/>
+		<DefaultValue/>
+		<InitialValue/>
+		<FieldDescription/>
+		<FieldDescVertical/>
+		<FieldType/>
+		<FieldDimension/>
+		<FieldFileName>AddressBook</FieldFileName>
+		<FieldSeqNo/>
+		<FieldNotNull/>
+		<DataClass/>
+		<Hidden/>
+		<IncludeScope>4</IncludeScope>
+	</FieldData>
 </file>

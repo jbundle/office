@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+      <groupId>org.jbundle.app.office</groupId>
+      <artifactId>jbundle-app-office-project</artifactId>
+      <version>1.1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>org.jbundle.app.office.sample.addressbook</artifactId>
+
+    <packaging>bundle</packaging>
+    <name>Basic application</name>
+
+    <properties>
+        <systemname>${project.groupId}</systemname>
+    </properties>
+    
+    <build>
+        <resources>
+          <resource>
+            <directory>src/main/resources</directory>
+            <filtering>true</filtering>
+          </resource>
+        </resources>
+    </build>
+          
+    <dependencies>
+      <dependency>
+          <groupId>org.jbundle.config.dep</groupId>
+          <artifactId>jbundle-config-dep-all</artifactId>
+          <version>${jbundle-version}</version>
+          <type>pom</type>
+      </dependency>
+      <dependency>	
+        <groupId>org.jbundle.base.screen</groupId>
+        <artifactId>org.jbundle.base.screen.view.swing</artifactId>
+        <version>${jbundle-swing-version-range}</version>
+      </dependency>
+    </dependencies>
+
+  <repositories>
+    <repository>
+      <id>sonatype-nexus-snapshots</id>
+      <name>Sonatype Nexus Snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+</project>

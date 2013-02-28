@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><file>
+	<AddressBook ID="1">
+		<LastChanged>2013-02-28T09:32:21</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>John Smith</Name>
+		<Address>2211 Second Ave.</Address>
+	</AddressBook>
+	<AddressBook ID="2">
+		<LastChanged>2013-02-28T09:32:30</LastChanged>
+		<Deleted>N</Deleted>
+		<Name>Jane Doe</Name>
+		<Address>1122 First Street</Address>
+	</AddressBook>
+</file>
