@@ -56,7 +56,7 @@
 		<Name>Settings</Name>
 		<ParentFolderID>3</ParentFolderID>
 		<Sequence>30</Sequence>
-		<Comment/>
+		<Comment>System settings.</Comment>
 		<Code>settings</Code>
 		<Type>menu</Type>
 		<AutoDesc>Y</AutoDesc>
