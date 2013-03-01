@@ -12,7 +12,7 @@
 
   <groupId>org.jbundle.app.office</groupId>
   <artifactId>jbundle-app-office-project</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1-SNAPSHOT</version>
 
   <name>jbundle-app-office-project - Office project</name>
   <packaging>pom</packaging>
