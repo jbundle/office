@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jbundle.app.office</groupId>
     <artifactId>jbundle-office-thin-app-reactor</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>org.jbundle.thin.app.office.calendar.app</artifactId>

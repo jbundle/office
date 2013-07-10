@@ -6,7 +6,7 @@
     <parent>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>jbundle-app-office-project</artifactId>
-      <version>1.1.1</version>
+      <version>1.1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>org.jbundle.app.office.sample.addressbook</artifactId>
@@ -31,7 +31,7 @@
       <dependency>
           <groupId>org.jbundle.config.dep</groupId>
           <artifactId>jbundle-config-dep-all</artifactId>
-          <version>${jbundle-version-range}</version>
+          <version>${jbundle-version}</version>
           <type>pom</type>
       </dependency>
       <dependency>	
