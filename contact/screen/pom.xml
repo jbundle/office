@@ -17,17 +17,17 @@
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.contact.db</artifactId>
-      <version>${jbundle-app-office-version-range}</version>
+      <version>1.1.4-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.model.app.office.contact</artifactId>
-      <version>${jbundle-app-office-version-range}</version>
+      <version>1.1.4-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.res.app.office.contact</artifactId>
-      <version>${jbundle-app-office-version-range}</version>
+      <version>1.1.4-SNAPSHOT</version>
     </dependency>
     <dependency>
         <groupId>org.jbundle.config.dep</groupId>
