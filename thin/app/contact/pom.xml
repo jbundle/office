@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jbundle.app.office</groupId>
     <artifactId>jbundle-office-thin-app-reactor</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.5-SNAPSHOT</version>
   </parent>
 
   <artifactId>org.jbundle.thin.app.office.contact.app</artifactId>
@@ -31,12 +31,12 @@
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.thin.app.office.contact.db</artifactId>
-      <version>1.1.4</version>
+      <version>1.1.5-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.res.app.office.contact</artifactId>
-      <version>1.1.4</version>
+      <version>1.1.5-SNAPSHOT</version>
     </dependency>
   </dependencies>
 

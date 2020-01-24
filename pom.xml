@@ -12,7 +12,7 @@
 
   <groupId>org.jbundle.app.office</groupId>
   <artifactId>jbundle-app-office-project</artifactId>
-  <version>1.1.4</version>
+  <version>1.1.5-SNAPSHOT</version>
 
   <name>jbundle-app-office-project - Office project</name>
   <packaging>pom</packaging>
@@ -25,7 +25,7 @@
     <url>https://github.com/jbundle/office</url>
     <connection>scm:git:https://github.com/jbundle/office</connection>
     <developerConnection>scm:git:https://github.com/jbundle/office</developerConnection>
-    <tag>jbundle-app-office-project-1.1.4</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <modules>
