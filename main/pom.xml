@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jbundle.app.office</groupId>
     <artifactId>jbundle-app-office-project</artifactId>
-    <version>1.1.4-SNAPSHOT</version>
+    <version>1.1.4</version>
   </parent>
 
   <artifactId>org.jbundle.app.office</artifactId>
@@ -30,42 +30,42 @@
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.contact.screen</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.res.app.office.contact</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.contact.res.data</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.contact.res.dev</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.calendar.screen</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.calendar.screen.view.swing</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.thin.app.office.contact.app</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.thin.app.office.calendar.app</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.base.screen</groupId>
@@ -75,7 +75,7 @@
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.sample.addressbook</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
   </dependencies>
 

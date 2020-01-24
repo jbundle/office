@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jbundle.app.office</groupId>
     <artifactId>jbundle-app-calendar-reactor</artifactId>
-    <version>1.1.4-SNAPSHOT</version>
+    <version>1.1.4</version>
   </parent>
 
   <artifactId>org.jbundle.app.office.calendar.screen.view.swing</artifactId>
@@ -17,7 +17,7 @@
     <dependency>
       <groupId>org.jbundle.app.office</groupId>
       <artifactId>org.jbundle.app.office.calendar.screen</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>1.1.4</version>
     </dependency>
     <dependency>
       <groupId>org.jbundle.base.screen</groupId>
