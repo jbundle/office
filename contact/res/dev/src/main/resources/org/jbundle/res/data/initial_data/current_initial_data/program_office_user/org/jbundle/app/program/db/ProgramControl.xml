@@ -3,7 +3,7 @@
 		<LastChanged>2012-12-24T08:52:09</LastChanged>
 		<Deleted>N</Deleted>
 		<ProjectName>office</ProjectName>
-		<BaseDirectory>/home/don</BaseDirectory>
+		<BaseDirectory>/home/dcorley</BaseDirectory>
 		<SourceDirectory>src/main/java/</SourceDirectory>
 		<ResourcesDirectory>src/main/resources/</ResourcesDirectory>
 		<ClassDirectory>target/classes/</ClassDirectory>
