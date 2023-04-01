@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jbundle.app.office</groupId>
     <artifactId>jbundle-app-office-contact-reactor</artifactId>
-    <version>1.1.5-SNAPSHOT</version>
+    <version>1.1.5</version>
   </parent>
 
   <artifactId>jbundle-app-office-contact-res-reactor</artifactId>
